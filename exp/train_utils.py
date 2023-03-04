@@ -92,7 +92,7 @@ def infer(model, device, loader):
     return y_pred
 
 
-def eval(model, device, loader, evaluator, task_type):
+def eval(model, device, loader, evaluator, task_type, show_input_dict = False):
     """
         Evaluates a model over all the batches of a data loader.
     """
@@ -111,9 +111,11 @@ def eval(model, device, loader, evaluator, task_type):
     model.eval()
     y_true = []
     y_pred = []
+    model_nm = []
     losses = []
     for step, batch in enumerate(tqdm(loader, desc="Eval iteration")):
-        
+        print("batch : ", batch )
+        print("y :", batch.y)
         # Cast features to double precision if that is used
         if torch.get_default_dtype() == torch.float64:
             for dim in range(batch.dimension + 1):
@@ -144,7 +146,15 @@ def eval(model, device, loader, evaluator, task_type):
 
     input_dict = {'y_pred': y_pred, 'y_true': y_true}
     mean_loss = float(np.mean(losses)) if len(losses) > 0 else np.nan
-    return evaluator.eval(input_dict), mean_loss
+    if show_input_dict is False:
+        return evaluator.eval(input_dict), mean_loss
+    else:
+        input_dict['model_nm'] = []
+        for step, batch in enumerate(tqdm(loader, desc="Eval iteration")):
+            batch = batch.to(device)
+            with torch.no_grad():
+                print("model_nm : ", batch.model_nm)
+        return evaluator.eval(input_dict), mean_loss, input_dict
 
     
 class Evaluator(object):

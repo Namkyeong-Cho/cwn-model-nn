@@ -150,7 +150,6 @@ def construct_features(vx: Tensor, cell_tables, init_method: str) -> List:
             aux_0 += cell
         node_cell_index = torch.LongTensor([aux_0, aux_1])
         in_features = vx.index_select(0, node_cell_index[0])
-        print("1")
         features.append(scatter(in_features, node_cell_index[1], dim=0,
                                 dim_size=len(cell_tables[dim]), reduce=init_method))
 
@@ -158,7 +157,6 @@ def construct_features(vx: Tensor, cell_tables, init_method: str) -> List:
 
 
 def extract_labels(y, size):
-    print("size : ", size)
     return None, y
     # v_y, complex_y = None, None
     # if y is None:
@@ -405,7 +403,8 @@ def extract_boundaries_and_coboundaries_with_rings(simplex_tree, id_maps):
 
 def compute_ring_2complex(x: Union[Tensor, np.ndarray], edge_index: Union[Tensor, np.ndarray],
                           edge_attr: Optional[Union[Tensor, np.ndarray]],
-                          size: int, y: Optional[Union[Tensor, np.ndarray]] = None, max_k: int = 7,
+                          size: int, y: Optional[Union[Tensor, np.ndarray]] = None,
+                          max_k: int = 7,
                           include_down_adj=True, init_method: str = 'sum',
                           init_edges=True, init_rings=False) -> Complex:
     """Generates a ring 2-complex of a pyG graph via graph-tool.
@@ -437,7 +436,6 @@ def compute_ring_2complex(x: Union[Tensor, np.ndarray], edge_index: Union[Tensor
     # Creates the gudhi-based simplicial complex up to edges
     # print(edge_index.shape, "size: ",size)
     simplex_tree = pyg_to_simplex_tree(edge_index, size)
-    print("simplex_tree.dimension() : ", simplex_tree.dimension())
     assert simplex_tree.dimension() <= 1
     if simplex_tree.dimension() == 0:
         assert edge_index.size(1) == 0
@@ -457,13 +455,7 @@ def compute_ring_2complex(x: Union[Tensor, np.ndarray], edge_index: Union[Tensor
     
     # Construct features for the higher dimensions
     xs = [x, None, None]
-    print("init_method :", init_method)
-    # print("x :", x)
-    print("cell_tables : ",cell_tables)
     constructed_features = construct_features(x, cell_tables, init_method)
-    print("constructed_features : ",constructed_features[0].shape,constructed_features[1].shape,constructed_features[2].shape)
-    print("init_rings :", init_rings)
-    print("init_edges :", init_edges)
     # assert 1 == 0
     if simplex_tree.dimension() == 0:
         assert len(constructed_features) == 1

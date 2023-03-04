@@ -39,6 +39,7 @@ def exp_main(passed_args):
     val_curves = [curves['val'] for curves in results]
     test_curves = [curves['test'] for curves in results]
     best_idx = [curves['best'] for curves in results]
+    print("curves: ", curves)
     last_train = [curves['last_train'] for curves in results]
     last_val = [curves['last_val'] for curves in results]
     last_test = [curves['last_test'] for curves in results]

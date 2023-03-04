@@ -55,6 +55,7 @@ class Collater(object):
     def collate(self, batch):
         """Converts a data list in the right storage format."""
         elem = batch[0]
+        print("elem :" , elem)
         if isinstance(elem, Cochain):
             return CochainBatch.from_cochain_list(batch, self.follow_batch)
         elif isinstance(elem, Complex):

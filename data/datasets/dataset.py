@@ -346,7 +346,7 @@ class InMemoryComplexDataset(ComplexDataset):
         elif isinstance(item, int) or isinstance(item, float):
             data['labels'] = torch.tensor(data['labels'])
         data['dims'] = torch.tensor(data['dims'])
-        
+
         return data, slices
     
     def copy(self, idx=None):
@@ -364,7 +364,9 @@ class InMemoryComplexDataset(ComplexDataset):
     def get_split(self, split):
         if split not in ['train', 'valid', 'test']:
             raise ValueError(f'Unknown split {split}.')
+        # print("self.get_idx_split() :",self.get_idx_split())
         idx = self.get_idx_split()[split]
+        # print("idx : ", idx, "split : ", split)
         if idx is None:
             raise AssertionError("No split information found.")
         if self.__indices__ is not None:

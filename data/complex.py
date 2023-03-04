@@ -58,7 +58,8 @@ class Cochain(object):
     """
     def __init__(self, dim: int, x: Tensor = None, upper_index: Adj = None, lower_index: Adj = None,
                  shared_boundaries: Tensor = None, shared_coboundaries: Tensor = None, mapping: Tensor = None,
-                 boundary_index: Adj = None, upper_orient=None, lower_orient=None, y=None, **kwargs):
+                 boundary_index: Adj = None, upper_orient=None, lower_orient=None, y=None,
+                 **kwargs):
         if dim == 0:
             assert lower_index is None
             assert shared_boundaries is None
@@ -686,6 +687,7 @@ class ComplexBatch(Complex):
         super(ComplexBatch, self).__init__(*cochains, y=y)
         self.num_complexes = num_complexes
         self.dimension = dimension
+
 
     @classmethod
     def from_complex_list(cls, data_list: List[Complex], follow_batch=[], max_dim: int = 2):

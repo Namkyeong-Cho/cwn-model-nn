@@ -1,5 +1,5 @@
 import torch
-
+import random
 import os, glob, dill, json
 import os.path as osp
 from data.datasets import InMemoryComplexDataset
@@ -25,10 +25,20 @@ class Model_NN_Graph(InMemoryComplexDataset):
         print("Data loader initiated")
         print("processed name : " , self.processed_paths)
         self.data, self.slices = torch.load(self.processed_paths[0])
+        total_indexes = list(range(self.len()))
+        train_ratio = 0.8
 
-        self.train_ids = list(range(self.len()))
-        self.val_ids = list(range(self.len()))
-        self.test_ids = list(range(self.len()))
+        # Calculate the number of examples in the training set
+        num_train = int(train_ratio * len(total_indexes))
+
+        # Shuffle the indices randomly
+        random.shuffle(total_indexes)
+
+        # Split the indices into training and test sets
+        train_indices = total_indexes[:num_train]
+        test_indices = total_indexes[num_train:]
+        self.train_ids = train_indices
+        self.test_ids = test_indices
 
     @property
     def processed_file_names(self):
@@ -42,7 +52,6 @@ class Model_NN_Graph(InMemoryComplexDataset):
             self.root,'raw',self.node_feature_type)
         self.task_performance_dir = os.path.join(
             self.root, 'raw', f'{self.task}_performance_score.json')
-
         print("called raw file names", self.raw_file_dir)
         print("called raw file names", self.task_performance_dir)
         # The processed graph files are our raw files.
@@ -50,7 +59,6 @@ class Model_NN_Graph(InMemoryComplexDataset):
         return []
 
     def download(self):
-        # print("calling download")
         return
 
     @staticmethod
@@ -66,20 +74,14 @@ class Model_NN_Graph(InMemoryComplexDataset):
         with open(self.task_performance_dir, 'r') as f:
             performance=json.load(f)
             performance=performance[self.task]
-        # print("performance: ", performance)
-        print("load dill file and take care")
         dill_files_dirs=glob.glob(self.raw_file_dir+"/*")
         graph_info = []
         for dill_file_dir in dill_files_dirs:
             if dill_file_dir.endswith('.dill') is False:
                 continue
-            print("dill_file_dir : ", dill_file_dir)
             with open(dill_file_dir, 'rb') as f:
                 graph_obj=dill.load(f)
                 graph_info += graph_obj
-
-        print("graph_info :", len(graph_info))
-        print("*"*100)
         self.graphs= [x[0] for x in graph_info]
         self.params= [x[1] for x in graph_info]
         self.model_nm= [x[2] for x in graph_info]
@@ -100,7 +102,6 @@ class Model_NN_Graph(InMemoryComplexDataset):
                 params.append(self.params[idx])
                 model_nms.append(self.model_nm[idx])
                 accuracies.append(performance[full_name]["eval_matthews_correlation"])
-
         data_list = []
         for graph, model_name, y in zip(graphs, model_nms, accuracies):
             key_to_num = { u:idx for idx, u in enumerate(graph.nodes)}
@@ -117,7 +118,6 @@ class Model_NN_Graph(InMemoryComplexDataset):
             if self.pre_transform is not None:
                 data = self.pre_transform(data)
             data_list.append(data)
-        print("coverting graph dataset with rings")
         complexes, _, _ = convert_graph_dataset_with_rings(
             data_list,
             max_ring_size=self._max_ring_size,
@@ -125,8 +125,12 @@ class Model_NN_Graph(InMemoryComplexDataset):
             init_edges=True,
             init_rings=True,
             n_jobs=self._n_jobs)
-        print("coverting graph dataset with rings completed")
-        print("*"*100)
-        print("Saving data list")
-        torch.save(self.collate(complexes, self.max_dim), self.processed_paths[0])
-        print("Torch data saved")
+        for complex, y, model_nm in zip(complexes, accuracies, model_nms ):
+            complex.model_nm = model_nm
+            assert complex.y == y
+
+            # print("model_nm :", model_nm)
+        # assert False
+        torch.save(self.collate(complexes,self.max_dim), self.processed_paths[0])
+        # torch.save(self.collate(model_nms))
+        # print("Torch data saved")

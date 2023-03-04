@@ -56,7 +56,7 @@ def main(args):
                            simple_features=args.simple_features, n_jobs=args.preproc_jobs,
                            train_orient=args.train_orient, test_orient=args.test_orient)
     print("datset called!:", args.tune)
-    print(dataset.get_split('train'), dataset.get_split('test'), dataset.get_split('valid'))
+    print(dataset.get_split('train'), dataset.get_split('test'))
     # assert False
     if args.tune:
         split_idx = dataset.get_tune_idx_split()
@@ -66,13 +66,13 @@ def main(args):
     # Instantiate data loaders
     train_loader = DataLoader(dataset.get_split('train'), batch_size=args.batch_size,
         shuffle=True, num_workers=args.num_workers, max_dim=dataset.max_dim)
-    valid_loader = DataLoader(dataset.get_split('valid'), batch_size=args.batch_size,
+    # valid_loader = DataLoader(dataset.get_split('valid'), batch_size=args.batch_size,
+    #     shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
+    # test_split = split_idx.get("test", None)
+    # test_loader = None
+    # if test_split is not None:
+    test_loader = DataLoader(dataset.get_split('test'), batch_size=args.batch_size,
         shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
-    test_split = split_idx.get("test", None)
-    test_loader = None
-    if test_split is not None:
-        test_loader = DataLoader(dataset.get_split('test'), batch_size=args.batch_size,
-            shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
 
     # Automatic evaluator, takes dataset name as input
     evaluator = Evaluator(args.eval_metric, eps=args.iso_eps)
@@ -309,13 +309,17 @@ def main(args):
             if epoch == 1 or epoch % args.train_eval_period == 0:
                 train_perf, _ = eval(model, device, train_loader, evaluator, args.task_type)
             train_curve.append(train_perf)
-            valid_perf, epoch_val_loss = eval(model, device,
-                valid_loader, evaluator, args.task_type)#, dataset[split_idx["valid"]])
-            valid_curve.append(valid_perf)
 
+            # valid_perf, epoch_val_loss = eval(model, device,
+            #     valid_loader, evaluator, args.task_type)#, dataset[split_idx["valid"]])
+
+            valid_perf, epoch_val_loss = eval(model, device, test_loader, evaluator,
+                                              args.task_type)
+            valid_curve.append(valid_perf)
             if test_loader is not None:
                 test_perf, epoch_test_loss = eval(model, device, test_loader, evaluator,
                                                   args.task_type)
+
             else:
                 test_perf = np.nan
                 epoch_test_loss = np.nan
@@ -365,11 +369,11 @@ def main(args):
     final_train_perf = np.nan
     final_val_perf = np.nan
     final_test_perf = np.nan
-    if not args.dataset.startswith('sr'):
-        final_train_perf, _ = eval(model, device, train_loader, evaluator, args.task_type)
-        final_val_perf, _ = eval(model, device, valid_loader, evaluator, args.task_type)
-    if test_loader is not None:
-        final_test_perf, _ = eval(model, device, test_loader, evaluator, args.task_type)
+    print("args.dataset :" ,args.dataset)
+    final_train_perf, _, input_dict = eval(model, device, train_loader, evaluator, args.task_type,
+                                           show_input_dict=True)
+    print("inupt_dict : ", input_dict)
+
 
     # save results
     curves = {
