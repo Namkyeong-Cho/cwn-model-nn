@@ -6,7 +6,7 @@ import torch
 import torch.optim as optim
 import random
 
-from data.data_loading import DataLoader, load_dataset, load_graph_dataset
+from data.data_loading import DataLoader, load_dataset
 from torch_geometric.data import DataLoader as PyGDataLoader
 from exp.train_utils import train, eval, Evaluator
 from exp.parser import get_parser, validate_args
@@ -37,11 +37,6 @@ def main(args):
     np.random.seed(args.seed)
     random.seed(args.seed)
 
-    # Set double precision for SR experiments
-    if args.task_type == 'isomorphism':
-        assert args.dataset.startswith('sr')
-        torch.set_default_dtype(torch.float64)
-
     # Create results folder
     result_folder = os.path.join(
         args.result_folder, f'{args.dataset}-{args.exp_name}', f'seed-{args.seed}')
@@ -50,56 +45,34 @@ def main(args):
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
     filename = os.path.join(result_folder, 'results.txt')
-
-    if args.model.startswith('gin'):  # load graph dataset
-        graph_list, train_ids, val_ids, test_ids, num_classes = load_graph_dataset(
-            args.dataset, fold=args.fold, max_ring_size=args.max_ring_size)
-        train_graphs = [graph_list[i] for i in train_ids]
-        val_graphs = [graph_list[i] for i in val_ids]
-        train_loader = PyGDataLoader(train_graphs, batch_size=args.batch_size,
-                                  shuffle=True, num_workers=args.num_workers)
-        valid_loader = PyGDataLoader(val_graphs, batch_size=args.batch_size,
-                                   shuffle=False, num_workers=args.num_workers)
-        if test_ids is not None:
-            test_graphs = [graph_list[i] for i in test_ids]
-            test_loader = PyGDataLoader(test_graphs, batch_size=args.batch_size,
-                                       shuffle=False, num_workers=args.num_workers)
-        else:
-            test_loader = None
-        if args.dataset.startswith('sr'):
-            num_features = 1
-            num_classes = args.emb_dim
-        else:
-            num_features = graph_list[0].x.shape[1]
-
+    dataset = load_dataset(args.dataset,
+                           task=args.task,
+                           node_feature_type= args.node_feature_type,
+                           max_dim=args.max_dim, fold=args.fold,
+                           init_method=args.init_method, emb_dim=args.emb_dim,
+                           flow_points=args.flow_points, flow_classes=args.flow_classes,
+                           max_ring_size=args.max_ring_size,
+                           use_edge_features=args.use_edge_features,
+                           simple_features=args.simple_features, n_jobs=args.preproc_jobs,
+                           train_orient=args.train_orient, test_orient=args.test_orient)
+    print("datset called!:", args.tune)
+    print(dataset.get_split('train'), dataset.get_split('test'), dataset.get_split('valid'))
+    # assert False
+    if args.tune:
+        split_idx = dataset.get_tune_idx_split()
     else:
-        # Data loading
-        dataset = load_dataset(args.dataset,
-                               task=args.task,
-                               node_feature_type= args.node_feature_type,
-                               max_dim=args.max_dim, fold=args.fold,
-                               init_method=args.init_method, emb_dim=args.emb_dim,
-                               flow_points=args.flow_points, flow_classes=args.flow_classes,
-                               max_ring_size=args.max_ring_size,
-                               use_edge_features=args.use_edge_features,
-                               simple_features=args.simple_features, n_jobs=args.preproc_jobs,
-                               train_orient=args.train_orient, test_orient=args.test_orient)
-        print("datset called!")
-        if args.tune:
-            split_idx = dataset.get_tune_idx_split()
-        else:
-            split_idx = dataset.get_idx_split()
+        split_idx = dataset.get_idx_split()
 
-        # Instantiate data loaders
-        train_loader = DataLoader(dataset.get_split('train'), batch_size=args.batch_size,
-            shuffle=True, num_workers=args.num_workers, max_dim=dataset.max_dim)
-        valid_loader = DataLoader(dataset.get_split('valid'), batch_size=args.batch_size,
+    # Instantiate data loaders
+    train_loader = DataLoader(dataset.get_split('train'), batch_size=args.batch_size,
+        shuffle=True, num_workers=args.num_workers, max_dim=dataset.max_dim)
+    valid_loader = DataLoader(dataset.get_split('valid'), batch_size=args.batch_size,
+        shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
+    test_split = split_idx.get("test", None)
+    test_loader = None
+    if test_split is not None:
+        test_loader = DataLoader(dataset.get_split('test'), batch_size=args.batch_size,
             shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
-        test_split = split_idx.get("test", None)
-        test_loader = None
-        if test_split is not None:
-            test_loader = DataLoader(dataset.get_split('test'), batch_size=args.batch_size,
-                shuffle=False, num_workers=args.num_workers, max_dim=dataset.max_dim)
 
     # Automatic evaluator, takes dataset name as input
     evaluator = Evaluator(args.eval_metric, eps=args.iso_eps)

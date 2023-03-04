@@ -4,7 +4,7 @@ import argparse
 import time
 
 from data.parallel import ProgressParallel
-from data.data_loading import load_graph_dataset
+# from data.data_loading import load_graph_dataset
 from data.utils import get_rings
 from joblib import delayed
 

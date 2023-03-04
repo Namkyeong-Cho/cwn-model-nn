@@ -1,7 +1,7 @@
 import pytest
 import os
 
-from data.data_loading import load_graph_dataset
+# from data.data_loading import load_graph_dataset
 from data.datasets import TUDataset, DummyMolecularDataset, DummyDataset
 from data.utils import compute_clique_complex_with_gudhi, compute_ring_2complex
 from data.helper_test import compare_complexes, compare_complexes_without_2feats

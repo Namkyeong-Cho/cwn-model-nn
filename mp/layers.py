@@ -94,7 +94,7 @@ class CINCochainConv(CochainMessagePassing):
     def message_up(self, up_x_j: Tensor, up_attr: Tensor) -> Tensor:
         if up_attr is not None:
             x = torch.cat([up_x_j, up_attr], dim=-1)
-            print("x:", x)
+            # print("x:", x)
             # print("x:", x.shape,msg_up_nn)
             return self.msg_up_nn(x)
         else:
@@ -123,7 +123,6 @@ class CINConv(torch.nn.Module):
 
         out = []
         for dim in range(len(cochain_params)):
-            print("cochain_params[dim]) : ", cochain_params[dim])
             out.append(self.mp_levels[dim].forward(cochain_params[dim]))
         return out
 

@@ -7,7 +7,7 @@ from data.dummy_complexes import (get_house_complex, get_square_complex, get_pyr
 
 from data.complex import ComplexBatch
 from data.dummy_complexes import get_testing_complex_list
-from data.data_loading import DataLoader, load_dataset
+from data.data_loading import DataLoader
 
 
 def validate_double_house(batch):

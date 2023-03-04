@@ -103,19 +103,11 @@ class Model_NN_Graph(InMemoryComplexDataset):
 
         data_list = []
         for graph, model_name, y in zip(graphs, model_nms, accuracies):
-            # for idx,u in enumerate(graph.nodes):
-            #     print(f"{idx} u:" , u)
             key_to_num = { u:idx for idx, u in enumerate(graph.nodes)}
-
             x = torch.stack([graph.nodes[u]['feat'] for u in graph.nodes])
-            # adj = mol['bond_type']
-            # for edge in graph.edges():
-            #     print("edge: ", edge)
             edge_index =torch.tensor([
                 [key_to_num[edge[0]] for edge in graph.edges()],
                 [key_to_num[edge[1]] for edge in graph.edges()] ]).to(torch.long)
-            # edge_index = adj.nonzero(as_tuple=False).t().contiguous()
-            edge_attr = torch.ones(len(edge_index)) #.to(torch.long)
             edge_attr = None
             data = Data(x=x, edge_index=edge_index, edge_attr= edge_attr, y=y)
 
@@ -135,48 +127,6 @@ class Model_NN_Graph(InMemoryComplexDataset):
             n_jobs=self._n_jobs)
         print("coverting graph dataset with rings completed")
         print("*"*100)
-            # train_complexes, _, _ = convert_graph_dataset_with_rings(
-            #     train_data,
-            #     max_ring_size=self._max_ring_size,
-            #     include_down_adj=self.include_down_adj,
-            #     init_edges=self._use_edge_features,
-            #     init_rings=False,
-            #     n_jobs=self._n_jobs)
-            # data_list += train_complexes
-            # idx.append(list(range(start, len(data_list))))
-            # start = len(data_list)
-            # print("Converting the validation dataset to a cell complex...")
-            # val_complexes, _, _ = convert_graph_dataset_with_rings(
-            #     val_data,
-            #     max_ring_size=self._max_ring_size,
-            #     include_down_adj=self.include_down_adj,
-            #     init_edges=self._use_edge_features,
-            #     init_rings=False,
-            #     n_jobs=self._n_jobs)
-            # data_list += val_complexes
-            # idx.append(list(range(start, len(data_list))))
-            # start = len(data_list)
-            # print("Converting the test dataset to a cell complex...")
-            # test_complexes, _, _ = convert_graph_dataset_with_rings(
-            #     test_data,
-            #     max_ring_size=self._max_ring_size,
-            #     include_down_adj=self.include_down_adj,
-            #     init_edges=self._use_edge_features,
-            #     init_rings=False,
-            #     n_jobs=self._n_jobs)
-            # # pbar.update(1)
-
-        # pbar.close()
-        #
-        # torch.save(self.collate(data_list),
-        #            osp.join(self.processed_dir, f'{split}.pt'))
-
-
-
-        # print("processed paths :" ,self.processed_paths)
-        # #
-        # os.path.join()
         print("Saving data list")
-        # complexes = self.factory()
         torch.save(self.collate(complexes, self.max_dim), self.processed_paths[0])
         print("Torch data saved")

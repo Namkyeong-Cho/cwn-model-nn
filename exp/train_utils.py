@@ -55,7 +55,7 @@ def train(model, device, loader, optimizer, task_type='classification', ignore_u
                             "with only {} samples".format(num_samples))
 
         optimizer.zero_grad()
-        print("batch : ", batch)
+        # print("batch : ", batch)
         pred = model(batch)
         # print("pred  :", pred)
         # print("batch :", batch.y)

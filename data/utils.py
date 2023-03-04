@@ -219,7 +219,7 @@ def generate_cochain(dim, x, all_upper_index, all_lower_index,
         assert down_index.size(1) == shared_boundaries.size(0)
         assert num_cells_down >= shared_boundaries.max() + 1
     # print("checking befor maing cochaing")
-    print("x : ", x)
+    # print("x : ", x)
     return Cochain(dim=dim, x=x, upper_index=up_index,
                  lower_index=down_index, shared_coboundaries=shared_coboundaries,
                  shared_boundaries=shared_boundaries, y=y, num_cells_down=num_cells_down,
@@ -458,7 +458,7 @@ def compute_ring_2complex(x: Union[Tensor, np.ndarray], edge_index: Union[Tensor
     # Construct features for the higher dimensions
     xs = [x, None, None]
     print("init_method :", init_method)
-    print("x :", x)
+    # print("x :", x)
     print("cell_tables : ",cell_tables)
     constructed_features = construct_features(x, cell_tables, init_method)
     print("constructed_features : ",constructed_features[0].shape,constructed_features[1].shape,constructed_features[2].shape)
