@@ -1,0 +1,5668 @@
+{
+    "stsb": {
+        "half_open_3_whitenoise_0.02_-1": {
+            "pretrained_LM": "half_open_3",
+            "pert_type": "whitenoise",
+            "scale": "0.02",
+            "pert_layer": "-1",
+            "eval_pearson": 0.0835945058,
+            "eval_spearman": 0.0778167494
+        },
+        "half_open_3_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0850840906,
+            "eval_spearman": 0.0766424159
+        },
+        "half_open_3_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0855734041,
+            "eval_spearman": 0.079528594
+        },
+        "half_open_3_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0860976117,
+            "eval_spearman": 0.0793645245
+        },
+        "half_open_3_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0829910295,
+            "eval_spearman": 0.0766705119
+        },
+        "half_open_3_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0854886716,
+            "eval_spearman": 0.0778459682
+        },
+        "half_open_3_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0784078341,
+            "eval_spearman": 0.0752681889
+        },
+        "half_open_3_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0838757681,
+            "eval_spearman": 0.076462462
+        },
+        "half_open_3_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0802886849,
+            "eval_spearman": 0.0732550576
+        },
+        "half_open_3_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.089493353,
+            "eval_spearman": 0.0786799617
+        },
+        "half_open_3_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0818512542,
+            "eval_spearman": 0.0740665902
+        },
+        "half_open_3_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0841821017,
+            "eval_spearman": 0.0798556867
+        },
+        "half_open_6_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0977054308,
+            "eval_spearman": 0.0880417707
+        },
+        "half_open_6_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0942850207,
+            "eval_spearman": 0.0886691714
+        },
+        "half_open_6_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1036343522,
+            "eval_spearman": 0.0906028756
+        },
+        "half_open_6_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0952706117,
+            "eval_spearman": 0.0855115625
+        },
+        "half_open_6_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0925235313,
+            "eval_spearman": 0.0857511534
+        },
+        "half_open_6_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.091304218,
+            "eval_spearman": 0.0825962811
+        },
+        "half_open_6_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0887250416,
+            "eval_spearman": 0.0811144278
+        },
+        "half_open_6_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0935020388,
+            "eval_spearman": 0.0862697392
+        },
+        "half_open_6_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0940812624,
+            "eval_spearman": 0.0834881252
+        },
+        "half_open_6_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0893039181,
+            "eval_spearman": 0.0844604995
+        },
+        "half_open_6_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1051115878,
+            "eval_spearman": 0.0947198679
+        },
+        "half_open_6_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0950885104,
+            "eval_spearman": 0.0870554027
+        },
+        "half_open_6_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1006347641,
+            "eval_spearman": 0.0922321597
+        },
+        "half_open_6_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0786944212,
+            "eval_spearman": 0.077016973
+        },
+        "half_open_6_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0912055599,
+            "eval_spearman": 0.0818360938
+        },
+        "half_open_6_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1085103789,
+            "eval_spearman": 0.0989994375
+        },
+        "half_open_6_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1092967472,
+            "eval_spearman": 0.0959537227
+        },
+        "half_open_6_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1090805332,
+            "eval_spearman": 0.0993919511
+        },
+        "half_open_6_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1013423926,
+            "eval_spearman": 0.0890522447
+        },
+        "half_open_6_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1036824638,
+            "eval_spearman": 0.0962738955
+        },
+        "half_open_6_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0979754685,
+            "eval_spearman": 0.0885210966
+        },
+        "half_open_9_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0913342587,
+            "eval_spearman": 0.0896896116
+        },
+        "half_open_9_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1012604273,
+            "eval_spearman": 0.0953697099
+        },
+        "half_open_9_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1215611161,
+            "eval_spearman": 0.1120010861
+        },
+        "half_open_9_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0998918404,
+            "eval_spearman": 0.0930112154
+        },
+        "half_open_9_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1129274307,
+            "eval_spearman": 0.103512793
+        },
+        "half_open_9_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0973064697,
+            "eval_spearman": 0.0882828171
+        },
+        "half_open_9_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1225481156,
+            "eval_spearman": 0.1099260848
+        },
+        "half_open_9_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1211900476,
+            "eval_spearman": 0.11327795
+        },
+        "half_open_9_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1022408707,
+            "eval_spearman": 0.0947267076
+        },
+        "half_open_9_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0956824572,
+            "eval_spearman": 0.0896783999
+        },
+        "half_open_9_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1022598112,
+            "eval_spearman": 0.0957831817
+        },
+        "half_open_9_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1066975298,
+            "eval_spearman": 0.0987880699
+        },
+        "half_open_9_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0991373206,
+            "eval_spearman": 0.0961971499
+        },
+        "half_open_9_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1003962772,
+            "eval_spearman": 0.0928250818
+        },
+        "half_open_9_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1029493652,
+            "eval_spearman": 0.0977336225
+        },
+        "half_open_9_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1186777758,
+            "eval_spearman": 0.1075897236
+        },
+        "half_open_9_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1124340625,
+            "eval_spearman": 0.1021747645
+        },
+        "half_open_9_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1082560005,
+            "eval_spearman": 0.099983818
+        },
+        "half_open_9_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1065546156,
+            "eval_spearman": 0.0977420015
+        },
+        "half_open_9_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1181695094,
+            "eval_spearman": 0.1072443355
+        },
+        "half_open_9_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1132347698,
+            "eval_spearman": 0.1015037481
+        },
+        "half_open_9_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1122463665,
+            "eval_spearman": 0.1050875742
+        },
+        "half_open_9_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1127980995,
+            "eval_spearman": 0.1016202391
+        },
+        "half_open_9_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1021041625,
+            "eval_spearman": 0.0931061976
+        },
+        "half_open_9_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1090392618,
+            "eval_spearman": 0.0950649
+        },
+        "half_open_9_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1077252709,
+            "eval_spearman": 0.0979605818
+        },
+        "half_open_9_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0934902211,
+            "eval_spearman": 0.0896790084
+        },
+        "half_open_9_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1082228304,
+            "eval_spearman": 0.0976334873
+        },
+        "half_open_9_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0904477785,
+            "eval_spearman": 0.0897003839
+        },
+        "half_open_9_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.10009129,
+            "eval_spearman": 0.0953830586
+        },
+        "half_open_12_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1308893395,
+            "eval_spearman": 0.1211238646
+        },
+        "half_open_12_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1008082329,
+            "eval_spearman": 0.0991958993
+        },
+        "half_open_12_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1002306289,
+            "eval_spearman": 0.0988132585
+        },
+        "half_open_12_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0999135966,
+            "eval_spearman": 0.0960424809
+        },
+        "half_open_12_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1240286857,
+            "eval_spearman": 0.1142997496
+        },
+        "half_open_12_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0998810323,
+            "eval_spearman": 0.0973826988
+        },
+        "half_open_12_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1386083424,
+            "eval_spearman": 0.132019294
+        },
+        "half_open_12_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1091061453,
+            "eval_spearman": 0.1033927866
+        },
+        "half_open_12_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1250371812,
+            "eval_spearman": 0.1148602873
+        },
+        "half_open_12_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1013187735,
+            "eval_spearman": 0.0971348962
+        },
+        "half_open_12_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1216459521,
+            "eval_spearman": 0.1136145553
+        },
+        "half_open_12_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1164860949,
+            "eval_spearman": 0.1146327178
+        },
+        "half_open_12_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1123049485,
+            "eval_spearman": 0.1027507416
+        },
+        "half_open_12_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1247964947,
+            "eval_spearman": 0.112771213
+        },
+        "half_open_12_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1036612613,
+            "eval_spearman": 0.0986254683
+        },
+        "half_open_12_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1068132822,
+            "eval_spearman": 0.1028502826
+        },
+        "half_open_12_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1068211235,
+            "eval_spearman": 0.1048190722
+        },
+        "half_open_12_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1237476834,
+            "eval_spearman": 0.1137404184
+        },
+        "half_open_12_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1139220995,
+            "eval_spearman": 0.1026127985
+        },
+        "half_open_12_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1043941482,
+            "eval_spearman": 0.103745632
+        },
+        "half_open_12_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.119056088,
+            "eval_spearman": 0.1111587545
+        },
+        "half_open_12_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1103378473,
+            "eval_spearman": 0.1062982156
+        },
+        "half_open_12_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1002173587,
+            "eval_spearman": 0.0927127045
+        },
+        "half_open_12_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1151185309,
+            "eval_spearman": 0.1104334
+        },
+        "half_open_12_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1091683398,
+            "eval_spearman": 0.1041146732
+        },
+        "half_open_12_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1184784502,
+            "eval_spearman": 0.1111455606
+        },
+        "half_open_12_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1068114299,
+            "eval_spearman": 0.1065683635
+        },
+        "half_open_12_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.09824856,
+            "eval_spearman": 0.0928784181
+        },
+        "half_open_12_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1266494723,
+            "eval_spearman": 0.1179685866
+        },
+        "half_open_12_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0894335998,
+            "eval_spearman": 0.0898646135
+        },
+        "half_open_12_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1061728898,
+            "eval_spearman": 0.1061931479
+        },
+        "half_open_12_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1114843575,
+            "eval_spearman": 0.1033738204
+        },
+        "half_open_12_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.096702083,
+            "eval_spearman": 0.0923244658
+        },
+        "half_open_12_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1294961198,
+            "eval_spearman": 0.1204005599
+        },
+        "half_open_12_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1247083947,
+            "eval_spearman": 0.1173255221
+        },
+        "half_open_12_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1113533611,
+            "eval_spearman": 0.1044520257
+        },
+        "half_open_12_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1432499447,
+            "eval_spearman": 0.1336295974
+        },
+        "half_open_12_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0962707756,
+            "eval_spearman": 0.0928346512
+        },
+        "half_open_12_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1238996614,
+            "eval_spearman": 0.1149717963
+        },
+        "xlm-roberta-large_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9023028814,
+            "eval_spearman": 0.9003943038
+        },
+        "xlm-roberta-large_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9047180042,
+            "eval_spearman": 0.9009619235
+        },
+        "xlm-roberta-large_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9012703487,
+            "eval_spearman": 0.896425358
+        },
+        "xlm-roberta-large_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8938845084,
+            "eval_spearman": 0.8941756786
+        },
+        "xlm-roberta-large_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8916869958,
+            "eval_spearman": 0.8893706094
+        },
+        "xlm-roberta-large_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8840318763,
+            "eval_spearman": 0.8816811664
+        },
+        "xlm-roberta-large_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9081531512,
+            "eval_spearman": 0.9065969736
+        },
+        "xlm-roberta-large_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9001592407,
+            "eval_spearman": 0.8989871872
+        },
+        "xlm-roberta-large_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9069680558,
+            "eval_spearman": 0.9039041942
+        },
+        "xlm-roberta-large_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.053615492,
+            "eval_spearman": 0.0568889115
+        },
+        "xlm-roberta-large_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9043066798,
+            "eval_spearman": 0.9020595594
+        },
+        "xlm-roberta-large_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9047486632,
+            "eval_spearman": 0.9014922619
+        },
+        "xlm-roberta-large_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9054337374,
+            "eval_spearman": 0.9033085514
+        },
+        "xlm-roberta-large_whitenoise_0.02_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9102798422,
+            "eval_spearman": 0.9080294657
+        },
+        "xlm-roberta-large_whitenoise_0.02_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9058012882,
+            "eval_spearman": 0.9041950004
+        },
+        "xlm-roberta-large_whitenoise_0.02_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0634769674,
+            "eval_spearman": 0.064399321
+        },
+        "xlm-roberta-large_whitenoise_0.02_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8933484876,
+            "eval_spearman": 0.8907503008
+        },
+        "xlm-roberta-large_whitenoise_0.02_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9042271032,
+            "eval_spearman": 0.9023689298
+        },
+        "xlm-roberta-large_whitenoise_0.02_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9057041922,
+            "eval_spearman": 0.9040511783
+        },
+        "xlm-roberta-large_whitenoise_0.02_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9100301687,
+            "eval_spearman": 0.9069640913
+        },
+        "xlm-roberta-large_whitenoise_0.02_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9062161907,
+            "eval_spearman": 0.9049004671
+        },
+        "xlm-roberta-large_whitenoise_0.02_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9099522977,
+            "eval_spearman": 0.9073880062
+        },
+        "xlm-roberta-large_whitenoise_0.02_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9000052938,
+            "eval_spearman": 0.8991831411
+        },
+        "xlm-roberta-large_whitenoise_0.02_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9121544178,
+            "eval_spearman": 0.9077803605
+        },
+        "xlm-roberta-large_whitenoise_0.02_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9105448625,
+            "eval_spearman": 0.9071152569
+        },
+        "xlm-roberta-large_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9032519746,
+            "eval_spearman": 0.900363085
+        },
+        "xlm-roberta-large_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9113530346,
+            "eval_spearman": 0.9074235329
+        },
+        "xlm-roberta-large_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8976985308,
+            "eval_spearman": 0.8951169105
+        },
+        "xlm-roberta-large_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8264357358,
+            "eval_spearman": 0.8264151673
+        },
+        "xlm-roberta-large_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9092480661,
+            "eval_spearman": 0.9065754451
+        },
+        "xlm-roberta-large_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9025462036,
+            "eval_spearman": 0.9004753199
+        },
+        "xlm-roberta-large_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9067828672,
+            "eval_spearman": 0.9036812634
+        },
+        "xlm-roberta-large_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9079999116,
+            "eval_spearman": 0.9058408948
+        },
+        "xlm-roberta-large_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.86442686,
+            "eval_spearman": 0.8617899267
+        },
+        "xlm-roberta-large_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.903506476,
+            "eval_spearman": 0.9003699391
+        },
+        "xlm-roberta-large_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8993479387,
+            "eval_spearman": 0.8989781659
+        },
+        "xlm-roberta-large_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8971140754,
+            "eval_spearman": 0.8964695876
+        },
+        "xlm-roberta-large_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9058323096,
+            "eval_spearman": 0.9016396232
+        },
+        "xlm-roberta-large_whitenoise_0.05_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9058967899,
+            "eval_spearman": 0.9029456277
+        },
+        "xlm-roberta-large_whitenoise_0.05_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9055648698,
+            "eval_spearman": 0.9021734741
+        },
+        "xlm-roberta-large_whitenoise_0.05_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9059599422,
+            "eval_spearman": 0.9023458408
+        },
+        "xlm-roberta-large_whitenoise_0.05_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9013356816,
+            "eval_spearman": 0.8991050699
+        },
+        "xlm-roberta-large_whitenoise_0.05_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.905824907,
+            "eval_spearman": 0.9041111445
+        },
+        "xlm-roberta-large_whitenoise_0.05_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8972698636,
+            "eval_spearman": 0.8956156813
+        },
+        "xlm-roberta-large_whitenoise_0.05_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9087512419,
+            "eval_spearman": 0.906416324
+        },
+        "xlm-roberta-large_whitenoise_0.05_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9070195419,
+            "eval_spearman": 0.904812709
+        },
+        "xlm-roberta-large_whitenoise_0.05_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.908919574,
+            "eval_spearman": 0.9058699215
+        },
+        "xlm-roberta-large_whitenoise_0.05_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.896178517,
+            "eval_spearman": 0.8940820771
+        },
+        "xlm-roberta-large_whitenoise_0.05_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.893395985,
+            "eval_spearman": 0.8891703014
+        },
+        "xlm-roberta-large_whitenoise_0.05_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9053220995,
+            "eval_spearman": 0.9031248395
+        },
+        "xlm-roberta-large_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0144735551,
+            "eval_spearman": -0.0187507008
+        },
+        "xlm-roberta-large_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9095434766,
+            "eval_spearman": 0.9081029337
+        },
+        "xlm-roberta-large_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9056631397,
+            "eval_spearman": 0.9038839931
+        },
+        "xlm-roberta-large_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8567454039,
+            "eval_spearman": 0.8551066499
+        },
+        "xlm-roberta-large_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9056767402,
+            "eval_spearman": 0.9034419501
+        },
+        "xlm-roberta-large_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8966112507,
+            "eval_spearman": 0.8947460313
+        },
+        "xlm-roberta-large_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8376690444,
+            "eval_spearman": 0.8344313847
+        },
+        "xlm-roberta-large_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9037633814,
+            "eval_spearman": 0.900912032
+        },
+        "xlm-roberta-large_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9045816913,
+            "eval_spearman": 0.901885328
+        },
+        "xlm-roberta-large_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8836122859,
+            "eval_spearman": 0.8820168463
+        },
+        "xlm-roberta-large_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8996328552,
+            "eval_spearman": 0.8967614552
+        },
+        "xlm-roberta-large_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8897613195,
+            "eval_spearman": 0.8875724115
+        },
+        "xlm-roberta-large_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9087761962,
+            "eval_spearman": 0.9054922344
+        },
+        "xlm-roberta-large_whitenoise_0.1_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0627961997,
+            "eval_spearman": 0.0847008876
+        },
+        "xlm-roberta-large_whitenoise_0.1_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8932035148,
+            "eval_spearman": 0.8913699204
+        },
+        "xlm-roberta-large_whitenoise_0.1_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9070287089,
+            "eval_spearman": 0.904500506
+        },
+        "xlm-roberta-large_whitenoise_0.1_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8990953961,
+            "eval_spearman": 0.8951176685
+        },
+        "xlm-roberta-large_whitenoise_0.1_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8824824029,
+            "eval_spearman": 0.8781206497
+        },
+        "xlm-roberta-large_whitenoise_0.1_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.906255649,
+            "eval_spearman": 0.9021120274
+        },
+        "xlm-roberta-large_whitenoise_0.1_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8631007972,
+            "eval_spearman": 0.8603530271
+        },
+        "xlm-roberta-large_whitenoise_0.1_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8882465415,
+            "eval_spearman": 0.8854683541
+        },
+        "xlm-roberta-large_whitenoise_0.1_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8991593568,
+            "eval_spearman": 0.8957005764
+        },
+        "xlm-roberta-large_whitenoise_0.1_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8863249244,
+            "eval_spearman": 0.882501198
+        },
+        "xlm-roberta-large_whitenoise_0.1_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8981757919,
+            "eval_spearman": 0.8964500965
+        },
+        "xlm-roberta-large_whitenoise_0.1_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940168973,
+            "eval_spearman": 0.8940857283
+        },
+        "xlm-roberta-base_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8498193354,
+            "eval_spearman": 0.8490481653
+        },
+        "xlm-roberta-base_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8596987754,
+            "eval_spearman": 0.8559787073
+        },
+        "xlm-roberta-base_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8553277219,
+            "eval_spearman": 0.8531746307
+        },
+        "xlm-roberta-base_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8576088051,
+            "eval_spearman": 0.8559311309
+        },
+        "xlm-roberta-base_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8720650468,
+            "eval_spearman": 0.8684411822
+        },
+        "xlm-roberta-base_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8570183038,
+            "eval_spearman": 0.8567248129
+        },
+        "xlm-roberta-base_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8558879417,
+            "eval_spearman": 0.8552195574
+        },
+        "xlm-roberta-base_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8566511218,
+            "eval_spearman": 0.8550234861
+        },
+        "xlm-roberta-base_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8671054865,
+            "eval_spearman": 0.8643053181
+        },
+        "xlm-roberta-base_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8509544099,
+            "eval_spearman": 0.8556032837
+        },
+        "xlm-roberta-base_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.867371492,
+            "eval_spearman": 0.8661844475
+        },
+        "xlm-roberta-base_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8619737933,
+            "eval_spearman": 0.861649359
+        },
+        "xlm-roberta-base_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.852628279,
+            "eval_spearman": 0.8515312773
+        },
+        "xlm-roberta-base_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8419326886,
+            "eval_spearman": 0.8400840541
+        },
+        "xlm-roberta-base_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8694964584,
+            "eval_spearman": 0.8680199789
+        },
+        "xlm-roberta-base_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8602127728,
+            "eval_spearman": 0.8586614406
+        },
+        "xlm-roberta-base_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8633307679,
+            "eval_spearman": 0.8587478178
+        },
+        "xlm-roberta-base_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8595724017,
+            "eval_spearman": 0.8577897869
+        },
+        "xlm-roberta-base_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8475005639,
+            "eval_spearman": 0.8447375715
+        },
+        "xlm-roberta-base_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8645986352,
+            "eval_spearman": 0.8611300295
+        },
+        "xlm-roberta-base_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8671328212,
+            "eval_spearman": 0.8672756689
+        },
+        "xlm-roberta-base_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8591400252,
+            "eval_spearman": 0.8584009261
+        },
+        "xlm-roberta-base_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8555467294,
+            "eval_spearman": 0.8562806667
+        },
+        "xlm-roberta-base_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.844033822,
+            "eval_spearman": 0.8419286514
+        },
+        "xlm-roberta-base_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8612007568,
+            "eval_spearman": 0.8589950209
+        },
+        "xlm-roberta-base_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8545058358,
+            "eval_spearman": 0.854806397
+        },
+        "xlm-roberta-base_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8380876458,
+            "eval_spearman": 0.8367327564
+        },
+        "xlm-roberta-base_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8461967391,
+            "eval_spearman": 0.84396574
+        },
+        "xlm-roberta-base_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.85532837,
+            "eval_spearman": 0.8545189804
+        },
+        "xlm-roberta-base_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8568042624,
+            "eval_spearman": 0.8552755397
+        },
+        "xlm-roberta-base_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8529319877,
+            "eval_spearman": 0.8514430637
+        },
+        "xlm-roberta-base_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8368828937,
+            "eval_spearman": 0.8391431905
+        },
+        "xlm-roberta-base_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.852486721,
+            "eval_spearman": 0.8510503837
+        },
+        "xlm-roberta-base_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8397622481,
+            "eval_spearman": 0.8373409917
+        },
+        "xlm-roberta-base_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8400727851,
+            "eval_spearman": 0.8393670945
+        },
+        "xlm-roberta-base_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8524642921,
+            "eval_spearman": 0.8505632731
+        },
+        "xlm-roberta-base_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8577149793,
+            "eval_spearman": 0.8592817115
+        },
+        "xlm-roberta-base_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8624383999,
+            "eval_spearman": 0.8602478135
+        },
+        "xlm-roberta-base_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8680380279,
+            "eval_spearman": 0.8676171389
+        },
+        "roberta-large_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9194292832,
+            "eval_spearman": 0.9177150667
+        },
+        "roberta-large_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9177901466,
+            "eval_spearman": 0.9156386756
+        },
+        "roberta-large_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9153416526,
+            "eval_spearman": 0.9123593975
+        },
+        "roberta-large_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9164080224,
+            "eval_spearman": 0.9165091299
+        },
+        "roberta-large_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.911781185,
+            "eval_spearman": 0.9140338791
+        },
+        "roberta-large_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9151560206,
+            "eval_spearman": 0.9132201864
+        },
+        "roberta-large_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9181792283,
+            "eval_spearman": 0.9166474414
+        },
+        "roberta-large_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9164723325,
+            "eval_spearman": 0.9155252573
+        },
+        "roberta-large_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9215773122,
+            "eval_spearman": 0.9181806371
+        },
+        "roberta-large_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9187928904,
+            "eval_spearman": 0.9170160804
+        },
+        "roberta-large_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9153290544,
+            "eval_spearman": 0.9135709144
+        },
+        "roberta-large_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9193898091,
+            "eval_spearman": 0.9179935509
+        },
+        "roberta-large_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9170970601,
+            "eval_spearman": 0.9153414725
+        },
+        "roberta-large_whitenoise_0.02_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9222741561,
+            "eval_spearman": 0.9194645305
+        },
+        "roberta-large_whitenoise_0.02_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9095826885,
+            "eval_spearman": 0.9098752667
+        },
+        "roberta-large_whitenoise_0.02_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.912469273,
+            "eval_spearman": 0.9118692619
+        },
+        "roberta-large_whitenoise_0.02_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9137658568,
+            "eval_spearman": 0.9128812306
+        },
+        "roberta-large_whitenoise_0.02_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9178120157,
+            "eval_spearman": 0.9157768376
+        },
+        "roberta-large_whitenoise_0.02_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9173170008,
+            "eval_spearman": 0.9147709365
+        },
+        "roberta-large_whitenoise_0.02_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9216677997,
+            "eval_spearman": 0.9196715929
+        },
+        "roberta-large_whitenoise_0.02_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9181257256,
+            "eval_spearman": 0.9180510046
+        },
+        "roberta-large_whitenoise_0.02_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.908901667,
+            "eval_spearman": 0.9072738406
+        },
+        "roberta-large_whitenoise_0.02_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9011849178,
+            "eval_spearman": 0.9039080981
+        },
+        "roberta-large_whitenoise_0.02_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9155332546,
+            "eval_spearman": 0.9142565002
+        },
+        "roberta-large_whitenoise_0.02_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8958072509,
+            "eval_spearman": 0.8975116506
+        },
+        "roberta-large_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9109817028,
+            "eval_spearman": 0.9101516896
+        },
+        "roberta-large_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8808325057,
+            "eval_spearman": 0.8829887215
+        },
+        "roberta-large_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9131402989,
+            "eval_spearman": 0.9120480877
+        },
+        "roberta-large_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9143550286,
+            "eval_spearman": 0.9141388062
+        },
+        "roberta-large_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9127122779,
+            "eval_spearman": 0.9108068003
+        },
+        "roberta-large_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9035711995,
+            "eval_spearman": 0.902303113
+        },
+        "roberta-large_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9178453918,
+            "eval_spearman": 0.9149539064
+        },
+        "roberta-large_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9163594581,
+            "eval_spearman": 0.9170143295
+        },
+        "roberta-large_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9183527168,
+            "eval_spearman": 0.9176931005
+        },
+        "roberta-large_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9168161149,
+            "eval_spearman": 0.9148804953
+        },
+        "roberta-large_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9206374519,
+            "eval_spearman": 0.9193191603
+        },
+        "roberta-large_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9090194167,
+            "eval_spearman": 0.9087067117
+        },
+        "roberta-large_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9179975227,
+            "eval_spearman": 0.9180434637
+        },
+        "roberta-large_whitenoise_0.05_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9172276448,
+            "eval_spearman": 0.914673924
+        },
+        "roberta-large_whitenoise_0.05_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9207378447,
+            "eval_spearman": 0.9191551655
+        },
+        "roberta-large_whitenoise_0.05_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9196811131,
+            "eval_spearman": 0.9180816381
+        },
+        "roberta-large_whitenoise_0.05_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1708593469,
+            "eval_spearman": 0.1270925556
+        },
+        "roberta-large_whitenoise_0.05_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9154426835,
+            "eval_spearman": 0.9130021684
+        },
+        "roberta-large_whitenoise_0.05_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9127721988,
+            "eval_spearman": 0.9126205863
+        },
+        "roberta-large_whitenoise_0.05_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9191030869,
+            "eval_spearman": 0.9167159468
+        },
+        "roberta-large_whitenoise_0.05_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9129307137,
+            "eval_spearman": 0.9129193232
+        },
+        "roberta-large_whitenoise_0.05_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7015108216,
+            "eval_spearman": 0.7136034687
+        },
+        "roberta-large_whitenoise_0.05_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0549694419,
+            "eval_spearman": 0.0671399031
+        },
+        "roberta-large_whitenoise_0.05_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9166657728,
+            "eval_spearman": 0.9153371433
+        },
+        "roberta-large_whitenoise_0.05_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9166666317,
+            "eval_spearman": 0.9145866517
+        },
+        "roberta-large_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9195803923,
+            "eval_spearman": 0.9187872685
+        },
+        "roberta-large_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9185048831,
+            "eval_spearman": 0.9172644098
+        },
+        "roberta-large_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8706054544,
+            "eval_spearman": 0.8664889104
+        },
+        "roberta-large_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9126600928,
+            "eval_spearman": 0.9118801214
+        },
+        "roberta-large_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.905470792,
+            "eval_spearman": 0.9039180928
+        },
+        "roberta-large_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9140352447,
+            "eval_spearman": 0.9134321135
+        },
+        "roberta-large_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8744773403,
+            "eval_spearman": 0.8786284846
+        },
+        "roberta-large_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9141245723,
+            "eval_spearman": 0.9129109406
+        },
+        "roberta-large_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9122566488,
+            "eval_spearman": 0.9119456766
+        },
+        "roberta-large_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9200112042,
+            "eval_spearman": 0.9184790886
+        },
+        "roberta-large_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9127417925,
+            "eval_spearman": 0.9115761621
+        },
+        "roberta-large_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9155834891,
+            "eval_spearman": 0.9129981479
+        },
+        "roberta-large_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9156138873,
+            "eval_spearman": 0.9126232625
+        },
+        "roberta-large_whitenoise_0.1_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9113087173,
+            "eval_spearman": 0.9143091818
+        },
+        "roberta-large_whitenoise_0.1_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9140341659,
+            "eval_spearman": 0.9123157765
+        },
+        "roberta-large_whitenoise_0.1_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8659816217,
+            "eval_spearman": 0.8606045843
+        },
+        "roberta-large_whitenoise_0.1_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9171760387,
+            "eval_spearman": 0.9162141884
+        },
+        "roberta-large_whitenoise_0.1_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9196731292,
+            "eval_spearman": 0.916485532
+        },
+        "roberta-large_whitenoise_0.1_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9190473123,
+            "eval_spearman": 0.917541273
+        },
+        "roberta-large_whitenoise_0.1_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9169191336,
+            "eval_spearman": 0.9169807174
+        },
+        "roberta-large_whitenoise_0.1_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9113042473,
+            "eval_spearman": 0.9130657912
+        },
+        "roberta-large_whitenoise_0.1_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9202225906,
+            "eval_spearman": 0.9189650871
+        },
+        "roberta-large_whitenoise_0.1_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9141632145,
+            "eval_spearman": 0.9145065342
+        },
+        "roberta-large_whitenoise_0.1_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9148704468,
+            "eval_spearman": 0.9131339318
+        },
+        "roberta-large_whitenoise_0.1_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9070415155,
+            "eval_spearman": 0.9067551499
+        },
+        "roberta-base_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8943640931,
+            "eval_spearman": 0.8938587193
+        },
+        "roberta-base_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8978742992,
+            "eval_spearman": 0.8955493992
+        },
+        "roberta-base_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8973295651,
+            "eval_spearman": 0.8960434147
+        },
+        "roberta-base_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8958363585,
+            "eval_spearman": 0.896312317
+        },
+        "roberta-base_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8993441719,
+            "eval_spearman": 0.8986020268
+        },
+        "roberta-base_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8983594097,
+            "eval_spearman": 0.89616455
+        },
+        "roberta-base_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8984977642,
+            "eval_spearman": 0.8980010905
+        },
+        "roberta-base_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8974527195,
+            "eval_spearman": 0.8959595214
+        },
+        "roberta-base_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8974800948,
+            "eval_spearman": 0.8960823098
+        },
+        "roberta-base_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8958932269,
+            "eval_spearman": 0.8939672087
+        },
+        "roberta-base_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8976856872,
+            "eval_spearman": 0.8964339826
+        },
+        "roberta-base_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8934083322,
+            "eval_spearman": 0.8929865123
+        },
+        "roberta-base_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8994496719,
+            "eval_spearman": 0.8989051658
+        },
+        "roberta-base_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8970040719,
+            "eval_spearman": 0.8941390326
+        },
+        "roberta-base_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940465794,
+            "eval_spearman": 0.8939894311
+        },
+        "roberta-base_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8969517117,
+            "eval_spearman": 0.8964476552
+        },
+        "roberta-base_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8970045886,
+            "eval_spearman": 0.8960799325
+        },
+        "roberta-base_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8947022929,
+            "eval_spearman": 0.892897772
+        },
+        "roberta-base_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9013665871,
+            "eval_spearman": 0.9000671026
+        },
+        "roberta-base_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8931792076,
+            "eval_spearman": 0.8917300879
+        },
+        "roberta-base_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8948672882,
+            "eval_spearman": 0.8940005806
+        },
+        "roberta-base_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8981314615,
+            "eval_spearman": 0.8962203294
+        },
+        "roberta-base_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.897937654,
+            "eval_spearman": 0.8970121663
+        },
+        "roberta-base_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8934032749,
+            "eval_spearman": 0.8930669999
+        },
+        "roberta-base_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.890733478,
+            "eval_spearman": 0.8893797393
+        },
+        "roberta-base_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8923549502,
+            "eval_spearman": 0.8919863176
+        },
+        "roberta-base_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8772203726,
+            "eval_spearman": 0.8791983462
+        },
+        "roberta-base_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8959711319,
+            "eval_spearman": 0.8948621968
+        },
+        "roberta-base_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.898320546,
+            "eval_spearman": 0.8964763972
+        },
+        "roberta-base_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8965113607,
+            "eval_spearman": 0.8959856353
+        },
+        "roberta-base_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8914100304,
+            "eval_spearman": 0.8898017165
+        },
+        "roberta-base_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8959046893,
+            "eval_spearman": 0.894940736
+        },
+        "roberta-base_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.894129493,
+            "eval_spearman": 0.8940309294
+        },
+        "roberta-base_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8947423993,
+            "eval_spearman": 0.893570833
+        },
+        "roberta-base_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9001309819,
+            "eval_spearman": 0.8991075752
+        },
+        "roberta-base_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8988986524,
+            "eval_spearman": 0.8964630236
+        },
+        "roberta-base_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9015111012,
+            "eval_spearman": 0.9006867969
+        },
+        "roberta-base_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8949879483,
+            "eval_spearman": 0.8938277833
+        },
+        "roberta-base_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8915101057,
+            "eval_spearman": 0.8917416769
+        },
+        "one_billion_12_layer_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7781393413,
+            "eval_spearman": 0.7780902302
+        },
+        "one_billion_12_layer_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7230205295,
+            "eval_spearman": 0.7365466393
+        },
+        "one_billion_12_layer_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7752880337,
+            "eval_spearman": 0.7760147911
+        },
+        "one_billion_12_layer_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7509806688,
+            "eval_spearman": 0.7591916852
+        },
+        "one_billion_12_layer_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7628508354,
+            "eval_spearman": 0.7663330157
+        },
+        "one_billion_12_layer_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7894742888,
+            "eval_spearman": 0.791055853
+        },
+        "one_billion_12_layer_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7666350781,
+            "eval_spearman": 0.7700103136
+        },
+        "one_billion_12_layer_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7707431553,
+            "eval_spearman": 0.7740357595
+        },
+        "one_billion_12_layer_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7754834956,
+            "eval_spearman": 0.779607838
+        },
+        "one_billion_12_layer_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7473217727,
+            "eval_spearman": 0.758821128
+        },
+        "one_billion_12_layer_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7515809174,
+            "eval_spearman": 0.7603573194
+        },
+        "one_billion_12_layer_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7285926326,
+            "eval_spearman": 0.7416183279
+        },
+        "one_billion_12_layer_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7607332913,
+            "eval_spearman": 0.7657153712
+        },
+        "one_billion_12_layer_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7710524998,
+            "eval_spearman": 0.7748110587
+        },
+        "one_billion_12_layer_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7536798216,
+            "eval_spearman": 0.7616501137
+        },
+        "one_billion_12_layer_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7402786494,
+            "eval_spearman": 0.7497849687
+        },
+        "one_billion_12_layer_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7793527939,
+            "eval_spearman": 0.7830366945
+        },
+        "one_billion_12_layer_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.768193348,
+            "eval_spearman": 0.7722199486
+        },
+        "one_billion_12_layer_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7690337401,
+            "eval_spearman": 0.7761469406
+        },
+        "one_billion_12_layer_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.774834822,
+            "eval_spearman": 0.7814634034
+        },
+        "one_billion_12_layer_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7447596194,
+            "eval_spearman": 0.7511471049
+        },
+        "one_billion_12_layer_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7600341427,
+            "eval_spearman": 0.7688885762
+        },
+        "one_billion_12_layer_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.778279814,
+            "eval_spearman": 0.7838798196
+        },
+        "one_billion_12_layer_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7452439323,
+            "eval_spearman": 0.7554364619
+        },
+        "one_billion_12_layer_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7631237636,
+            "eval_spearman": 0.7671412262
+        },
+        "one_billion_12_layer_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7744211129,
+            "eval_spearman": 0.7818631385
+        },
+        "one_billion_12_layer_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7513126205,
+            "eval_spearman": 0.7642473328
+        },
+        "one_billion_12_layer_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7465986409,
+            "eval_spearman": 0.7546681002
+        },
+        "one_billion_12_layer_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7638169752,
+            "eval_spearman": 0.7688611491
+        },
+        "one_billion_12_layer_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7662643813,
+            "eval_spearman": 0.77039099
+        },
+        "one_billion_12_layer_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0133345012,
+            "eval_spearman": -0.0097007334
+        },
+        "one_billion_12_layer_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7668598788,
+            "eval_spearman": 0.7718629608
+        },
+        "one_billion_12_layer_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7840095283,
+            "eval_spearman": 0.7877898704
+        },
+        "one_billion_12_layer_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.765595335,
+            "eval_spearman": 0.7716772614
+        },
+        "one_billion_12_layer_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8028011982,
+            "eval_spearman": 0.8022079319
+        },
+        "one_billion_12_layer_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7471582425,
+            "eval_spearman": 0.7541446975
+        },
+        "one_billion_12_layer_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7363440363,
+            "eval_spearman": 0.7496122266
+        },
+        "one_billion_12_layer_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7477188732,
+            "eval_spearman": 0.7555574656
+        },
+        "one_billion_12_layer_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7563678953,
+            "eval_spearman": 0.7632699068
+        },
+        "one_billion_9_layer_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7923627062,
+            "eval_spearman": 0.7970744124
+        },
+        "one_billion_9_layer_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8316129289,
+            "eval_spearman": 0.8294691891
+        },
+        "one_billion_9_layer_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.81566806,
+            "eval_spearman": 0.8147646132
+        },
+        "one_billion_9_layer_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8100695747,
+            "eval_spearman": 0.8100777025
+        },
+        "one_billion_9_layer_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8214535823,
+            "eval_spearman": 0.8184029271
+        },
+        "one_billion_9_layer_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8215314463,
+            "eval_spearman": 0.8241462335
+        },
+        "one_billion_9_layer_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8264405429,
+            "eval_spearman": 0.8263700286
+        },
+        "one_billion_9_layer_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.825620546,
+            "eval_spearman": 0.8236920677
+        },
+        "one_billion_9_layer_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8126977254,
+            "eval_spearman": 0.8158853791
+        },
+        "one_billion_9_layer_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8014383913,
+            "eval_spearman": 0.8026357987
+        },
+        "one_billion_9_layer_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8209936291,
+            "eval_spearman": 0.8212713596
+        },
+        "one_billion_9_layer_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8115585686,
+            "eval_spearman": 0.8104258504
+        },
+        "one_billion_9_layer_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8109894516,
+            "eval_spearman": 0.8089297177
+        },
+        "one_billion_9_layer_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8199504792,
+            "eval_spearman": 0.8215212993
+        },
+        "one_billion_9_layer_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8221887694,
+            "eval_spearman": 0.8201602788
+        },
+        "one_billion_9_layer_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8212382292,
+            "eval_spearman": 0.8206618841
+        },
+        "one_billion_9_layer_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.81538009,
+            "eval_spearman": 0.8149730617
+        },
+        "one_billion_9_layer_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8315423439,
+            "eval_spearman": 0.8297667747
+        },
+        "one_billion_9_layer_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7832338023,
+            "eval_spearman": 0.7886909422
+        },
+        "one_billion_9_layer_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8239561813,
+            "eval_spearman": 0.8241156107
+        },
+        "one_billion_9_layer_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8234082758,
+            "eval_spearman": 0.8227105332
+        },
+        "one_billion_9_layer_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8104502527,
+            "eval_spearman": 0.8108450765
+        },
+        "one_billion_9_layer_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8231270848,
+            "eval_spearman": 0.8195313442
+        },
+        "one_billion_9_layer_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8174744185,
+            "eval_spearman": 0.8209454039
+        },
+        "one_billion_9_layer_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8159504558,
+            "eval_spearman": 0.8169216751
+        },
+        "one_billion_9_layer_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8074060066,
+            "eval_spearman": 0.8072624514
+        },
+        "one_billion_9_layer_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8227867142,
+            "eval_spearman": 0.8224252199
+        },
+        "one_billion_9_layer_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8273301097,
+            "eval_spearman": 0.8256749036
+        },
+        "one_billion_9_layer_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8229022326,
+            "eval_spearman": 0.8223310169
+        },
+        "one_billion_9_layer_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8193778767,
+            "eval_spearman": 0.8223544262
+        },
+        "one_billion_6_layer_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7090682794,
+            "eval_spearman": 0.7147611392
+        },
+        "one_billion_6_layer_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7320461883,
+            "eval_spearman": 0.7377176117
+        },
+        "one_billion_6_layer_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6792526754,
+            "eval_spearman": 0.6796500022
+        },
+        "one_billion_6_layer_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6989866597,
+            "eval_spearman": 0.7102754733
+        },
+        "one_billion_6_layer_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7267484735,
+            "eval_spearman": 0.7331146316
+        },
+        "one_billion_6_layer_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7211510758,
+            "eval_spearman": 0.7230752297
+        },
+        "one_billion_6_layer_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6591703795,
+            "eval_spearman": 0.6620221366
+        },
+        "one_billion_6_layer_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6918030516,
+            "eval_spearman": 0.6957290133
+        },
+        "one_billion_6_layer_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7044389663,
+            "eval_spearman": 0.7136141217
+        },
+        "one_billion_6_layer_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6717846946,
+            "eval_spearman": 0.6769871428
+        },
+        "one_billion_6_layer_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7255319073,
+            "eval_spearman": 0.7238922196
+        },
+        "one_billion_6_layer_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6966193241,
+            "eval_spearman": 0.6988626673
+        },
+        "one_billion_6_layer_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6957598995,
+            "eval_spearman": 0.7080198883
+        },
+        "one_billion_6_layer_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7172321523,
+            "eval_spearman": 0.7219513677
+        },
+        "one_billion_6_layer_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7301372267,
+            "eval_spearman": 0.7358724164
+        },
+        "one_billion_6_layer_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6944003367,
+            "eval_spearman": 0.7011065313
+        },
+        "one_billion_6_layer_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6292447715,
+            "eval_spearman": 0.6292416472
+        },
+        "one_billion_6_layer_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7117499976,
+            "eval_spearman": 0.7219857147
+        },
+        "one_billion_6_layer_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6361388266,
+            "eval_spearman": 0.628909437
+        },
+        "one_billion_6_layer_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7241631968,
+            "eval_spearman": 0.7313350165
+        },
+        "one_billion_6_layer_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.572141995,
+            "eval_spearman": 0.5469575816
+        },
+        "one_billion_3_layer_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4300456953,
+            "eval_spearman": 0.4315354398
+        },
+        "one_billion_3_layer_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4222766471,
+            "eval_spearman": 0.414204604
+        },
+        "one_billion_3_layer_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4363993829,
+            "eval_spearman": 0.4277080119
+        },
+        "one_billion_3_layer_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.3993628508,
+            "eval_spearman": 0.3871958167
+        },
+        "one_billion_3_layer_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.3795614653,
+            "eval_spearman": 0.3693848791
+        },
+        "one_billion_3_layer_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.3955144002,
+            "eval_spearman": 0.3810282341
+        },
+        "one_billion_3_layer_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4215554639,
+            "eval_spearman": 0.4172635669
+        },
+        "one_billion_3_layer_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4336424258,
+            "eval_spearman": 0.4275301505
+        },
+        "one_billion_3_layer_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.3584691111,
+            "eval_spearman": 0.3497938923
+        },
+        "one_billion_3_layer_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4223004573,
+            "eval_spearman": 0.4188771535
+        },
+        "one_billion_3_layer_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4141837555,
+            "eval_spearman": 0.4124756396
+        },
+        "one_billion_3_layer_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.4282193355,
+            "eval_spearman": 0.4257607098
+        },
+        "electra-large-discriminator_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9165498045,
+            "eval_spearman": 0.916736897
+        },
+        "electra-large-discriminator_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0790831417,
+            "eval_spearman": 0.0804921072
+        },
+        "electra-large-discriminator_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9208260382,
+            "eval_spearman": 0.9214982419
+        },
+        "electra-large-discriminator_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.013878167,
+            "eval_spearman": 0.0195135977
+        },
+        "electra-large-discriminator_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0250357268,
+            "eval_spearman": 0.0245575352
+        },
+        "electra-large-discriminator_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0307919065,
+            "eval_spearman": 0.0291889678
+        },
+        "electra-large-discriminator_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.919342623,
+            "eval_spearman": 0.9211682185
+        },
+        "electra-large-discriminator_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0767507656,
+            "eval_spearman": 0.0558981148
+        },
+        "electra-large-discriminator_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9091630959,
+            "eval_spearman": 0.9112306138
+        },
+        "electra-large-discriminator_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9201862351,
+            "eval_spearman": 0.9201807161
+        },
+        "electra-large-discriminator_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0130901424,
+            "eval_spearman": 0.0088209624
+        },
+        "electra-large-discriminator_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9160530745,
+            "eval_spearman": 0.918381092
+        },
+        "electra-large-discriminator_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9137557733,
+            "eval_spearman": 0.914523568
+        },
+        "electra-large-discriminator_whitenoise_0.02_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9231075827,
+            "eval_spearman": 0.9235295422
+        },
+        "electra-large-discriminator_whitenoise_0.02_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9040674668,
+            "eval_spearman": 0.9071746964
+        },
+        "electra-large-discriminator_whitenoise_0.02_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.2032881401,
+            "eval_spearman": 0.1657419212
+        },
+        "electra-large-discriminator_whitenoise_0.02_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.1239664828,
+            "eval_spearman": 0.1764422889
+        },
+        "electra-large-discriminator_whitenoise_0.02_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9147983382,
+            "eval_spearman": 0.9142940732
+        },
+        "electra-large-discriminator_whitenoise_0.02_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9164241151,
+            "eval_spearman": 0.9188247632
+        },
+        "electra-large-discriminator_whitenoise_0.02_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9154303409,
+            "eval_spearman": 0.9193564219
+        },
+        "electra-large-discriminator_whitenoise_0.02_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.915385173,
+            "eval_spearman": 0.9142164361
+        },
+        "electra-large-discriminator_whitenoise_0.02_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.920811932,
+            "eval_spearman": 0.9212046901
+        },
+        "electra-large-discriminator_whitenoise_0.02_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0245464788,
+            "eval_spearman": -0.0265994425
+        },
+        "electra-large-discriminator_whitenoise_0.02_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9094690997,
+            "eval_spearman": 0.9116474255
+        },
+        "electra-large-discriminator_whitenoise_0.02_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.678665596,
+            "eval_spearman": 0.6311875313
+        },
+        "electra-large-discriminator_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7024811428,
+            "eval_spearman": 0.7452882846
+        },
+        "electra-large-discriminator_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9171381336,
+            "eval_spearman": 0.9182084905
+        },
+        "electra-large-discriminator_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9205036366,
+            "eval_spearman": 0.9226550825
+        },
+        "electra-large-discriminator_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0285936739,
+            "eval_spearman": 0.0279916918
+        },
+        "electra-large-discriminator_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9127218323,
+            "eval_spearman": 0.9134852346
+        },
+        "electra-large-discriminator_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.019321441,
+            "eval_spearman": 0.0330592413
+        },
+        "electra-large-discriminator_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9156252701,
+            "eval_spearman": 0.9153813195
+        },
+        "electra-large-discriminator_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9142985271,
+            "eval_spearman": 0.9173228422
+        },
+        "electra-large-discriminator_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9129972776,
+            "eval_spearman": 0.9147599686
+        },
+        "electra-large-discriminator_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9215282769,
+            "eval_spearman": 0.9217548168
+        },
+        "electra-large-discriminator_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.91899203,
+            "eval_spearman": 0.9208334941
+        },
+        "electra-large-discriminator_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0041670916,
+            "eval_spearman": -0.0134494734
+        },
+        "electra-large-discriminator_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9163180558,
+            "eval_spearman": 0.9178320294
+        },
+        "electra-large-discriminator_whitenoise_0.05_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.1025421814,
+            "eval_spearman": -0.0943191269
+        },
+        "electra-large-discriminator_whitenoise_0.05_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9157836886,
+            "eval_spearman": 0.9166903435
+        },
+        "electra-large-discriminator_whitenoise_0.05_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9045405105,
+            "eval_spearman": 0.9054796757
+        },
+        "electra-large-discriminator_whitenoise_0.05_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.920580756,
+            "eval_spearman": 0.9214654589
+        },
+        "electra-large-discriminator_whitenoise_0.05_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0317740997,
+            "eval_spearman": -0.0080217296
+        },
+        "electra-large-discriminator_whitenoise_0.05_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7252458824,
+            "eval_spearman": 0.7727049591
+        },
+        "electra-large-discriminator_whitenoise_0.05_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0386223855,
+            "eval_spearman": -0.0352005961
+        },
+        "electra-large-discriminator_whitenoise_0.05_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0880411255,
+            "eval_spearman": 0.1225178123
+        },
+        "electra-large-discriminator_whitenoise_0.05_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9223236809,
+            "eval_spearman": 0.9219968508
+        },
+        "electra-large-discriminator_whitenoise_0.05_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9162357015,
+            "eval_spearman": 0.917154819
+        },
+        "electra-large-discriminator_whitenoise_0.05_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8336589201,
+            "eval_spearman": 0.8285719801
+        },
+        "electra-large-discriminator_whitenoise_0.05_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": -0.0152735802,
+            "eval_spearman": -0.0749894858
+        },
+        "electra-large-discriminator_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9081625544,
+            "eval_spearman": 0.9073618674
+        },
+        "electra-large-discriminator_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9168889201,
+            "eval_spearman": 0.9181577414
+        },
+        "electra-large-discriminator_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9161881736,
+            "eval_spearman": 0.9168685358
+        },
+        "electra-large-discriminator_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8728573521,
+            "eval_spearman": 0.871652704
+        },
+        "electra-large-discriminator_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9168373127,
+            "eval_spearman": 0.9173746874
+        },
+        "electra-large-discriminator_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9195327038,
+            "eval_spearman": 0.9212771694
+        },
+        "electra-large-discriminator_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9116652172,
+            "eval_spearman": 0.9118464274
+        },
+        "electra-large-discriminator_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9205832588,
+            "eval_spearman": 0.9214785906
+        },
+        "electra-large-discriminator_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9080216781,
+            "eval_spearman": 0.910629197
+        },
+        "electra-large-discriminator_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9186620669,
+            "eval_spearman": 0.9190201815
+        },
+        "electra-large-discriminator_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0820641174,
+            "eval_spearman": 0.0463618996
+        },
+        "electra-large-discriminator_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9120270246,
+            "eval_spearman": 0.912663839
+        },
+        "electra-large-discriminator_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9191290284,
+            "eval_spearman": 0.91872182
+        },
+        "electra-large-discriminator_whitenoise_0.1_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9182160342,
+            "eval_spearman": 0.9194134807
+        },
+        "electra-large-discriminator_whitenoise_0.1_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0723159606,
+            "eval_spearman": 0.0275635628
+        },
+        "electra-large-discriminator_whitenoise_0.1_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0346942419,
+            "eval_spearman": 0.0483732629
+        },
+        "electra-large-discriminator_whitenoise_0.1_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9126933328,
+            "eval_spearman": 0.9150052214
+        },
+        "electra-large-discriminator_whitenoise_0.1_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9187592571,
+            "eval_spearman": 0.9190021476
+        },
+        "electra-large-discriminator_whitenoise_0.1_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.409025205,
+            "eval_spearman": 0.4841065685
+        },
+        "electra-large-discriminator_whitenoise_0.1_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9139673792,
+            "eval_spearman": 0.9170083189
+        },
+        "electra-large-discriminator_whitenoise_0.1_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.7996256738,
+            "eval_spearman": 0.7855845772
+        },
+        "electra-large-discriminator_whitenoise_0.1_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9144454735,
+            "eval_spearman": 0.9137811974
+        },
+        "electra-large-discriminator_whitenoise_0.1_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.0234311282,
+            "eval_spearman": 0.0213317109
+        },
+        "electra-large-discriminator_whitenoise_0.1_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6930380997,
+            "eval_spearman": 0.6903408383
+        },
+        "electra-large-discriminator_whitenoise_0.1_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.919364873,
+            "eval_spearman": 0.9197324115
+        },
+        "electra-base-discriminator_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8948294177,
+            "eval_spearman": 0.8963063028
+        },
+        "electra-base-discriminator_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8904119206,
+            "eval_spearman": 0.8917732641
+        },
+        "electra-base-discriminator_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.889886574,
+            "eval_spearman": 0.893047208
+        },
+        "electra-base-discriminator_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8960962132,
+            "eval_spearman": 0.8975184976
+        },
+        "electra-base-discriminator_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8907012738,
+            "eval_spearman": 0.8915647871
+        },
+        "electra-base-discriminator_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8900105305,
+            "eval_spearman": 0.8908036371
+        },
+        "electra-base-discriminator_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8924527871,
+            "eval_spearman": 0.8927341349
+        },
+        "electra-base-discriminator_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8968956635,
+            "eval_spearman": 0.90030035
+        },
+        "electra-base-discriminator_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8927114613,
+            "eval_spearman": 0.8942976822
+        },
+        "electra-base-discriminator_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8997117621,
+            "eval_spearman": 0.9001532094
+        },
+        "electra-base-discriminator_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8886291229,
+            "eval_spearman": 0.8903307631
+        },
+        "electra-base-discriminator_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8946979457,
+            "eval_spearman": 0.8978410014
+        },
+        "electra-base-discriminator_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8929339187,
+            "eval_spearman": 0.8934212759
+        },
+        "electra-base-discriminator_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8902218733,
+            "eval_spearman": 0.891143374
+        },
+        "electra-base-discriminator_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8939417552,
+            "eval_spearman": 0.8946862679
+        },
+        "electra-base-discriminator_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8951700801,
+            "eval_spearman": 0.8983573772
+        },
+        "electra-base-discriminator_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8867314089,
+            "eval_spearman": 0.8899747041
+        },
+        "electra-base-discriminator_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8951859722,
+            "eval_spearman": 0.8966974917
+        },
+        "electra-base-discriminator_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8957062004,
+            "eval_spearman": 0.898041288
+        },
+        "electra-base-discriminator_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.886644127,
+            "eval_spearman": 0.889590759
+        },
+        "electra-base-discriminator_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8962622019,
+            "eval_spearman": 0.8987269077
+        },
+        "electra-base-discriminator_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8962446854,
+            "eval_spearman": 0.8974694584
+        },
+        "electra-base-discriminator_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8952960954,
+            "eval_spearman": 0.8963508349
+        },
+        "electra-base-discriminator_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940725393,
+            "eval_spearman": 0.894766437
+        },
+        "electra-base-discriminator_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.900220941,
+            "eval_spearman": 0.9012936514
+        },
+        "electra-base-discriminator_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9026266612,
+            "eval_spearman": 0.9031448413
+        },
+        "electra-base-discriminator_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8906872125,
+            "eval_spearman": 0.8911459149
+        },
+        "electra-base-discriminator_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8915491556,
+            "eval_spearman": 0.8930277828
+        },
+        "electra-base-discriminator_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8905680465,
+            "eval_spearman": 0.8924398357
+        },
+        "electra-base-discriminator_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8921475501,
+            "eval_spearman": 0.8927821331
+        },
+        "electra-base-discriminator_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8907702247,
+            "eval_spearman": 0.892071702
+        },
+        "electra-base-discriminator_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8953847705,
+            "eval_spearman": 0.8960180144
+        },
+        "electra-base-discriminator_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8967394757,
+            "eval_spearman": 0.8994380327
+        },
+        "electra-base-discriminator_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940629766,
+            "eval_spearman": 0.895848468
+        },
+        "electra-base-discriminator_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8903219271,
+            "eval_spearman": 0.8919751699
+        },
+        "electra-base-discriminator_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8991794341,
+            "eval_spearman": 0.8991111998
+        },
+        "electra-base-discriminator_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8981323384,
+            "eval_spearman": 0.8981964002
+        },
+        "electra-base-discriminator_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.896565907,
+            "eval_spearman": 0.8979020245
+        },
+        "electra-base-discriminator_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8992671761,
+            "eval_spearman": 0.8997409475
+        },
+        "distilroberta-base_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8626924147,
+            "eval_spearman": 0.8622978666
+        },
+        "distilroberta-base_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8616471119,
+            "eval_spearman": 0.8618428182
+        },
+        "distilroberta-base_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.865748015,
+            "eval_spearman": 0.8648570694
+        },
+        "distilroberta-base_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8742738889,
+            "eval_spearman": 0.873276851
+        },
+        "distilroberta-base_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8672444671,
+            "eval_spearman": 0.8666997397
+        },
+        "distilroberta-base_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8719982493,
+            "eval_spearman": 0.870172767
+        },
+        "distilroberta-base_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8705614647,
+            "eval_spearman": 0.8689646327
+        },
+        "distilroberta-base_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.868190114,
+            "eval_spearman": 0.8665021453
+        },
+        "distilroberta-base_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8676963742,
+            "eval_spearman": 0.8671707774
+        },
+        "distilroberta-base_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8648469554,
+            "eval_spearman": 0.86354854
+        },
+        "distilroberta-base_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8679281504,
+            "eval_spearman": 0.8673442473
+        },
+        "distilroberta-base_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8701870271,
+            "eval_spearman": 0.869738619
+        },
+        "distilroberta-base_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.867404353,
+            "eval_spearman": 0.8666916169
+        },
+        "distilroberta-base_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8739964934,
+            "eval_spearman": 0.8712713994
+        },
+        "distilroberta-base_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8637480689,
+            "eval_spearman": 0.8607925025
+        },
+        "distilroberta-base_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8701780038,
+            "eval_spearman": 0.8704650341
+        },
+        "distilroberta-base_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8602229302,
+            "eval_spearman": 0.8592157666
+        },
+        "distilroberta-base_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8670585088,
+            "eval_spearman": 0.8653580733
+        },
+        "distilroberta-base_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8716201561,
+            "eval_spearman": 0.8703797956
+        },
+        "distilroberta-base_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8668611148,
+            "eval_spearman": 0.8655875254
+        },
+        "distilroberta-base_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8669443622,
+            "eval_spearman": 0.865913305
+        },
+        "distilbert-base-uncased_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8653268929,
+            "eval_spearman": 0.8632295416
+        },
+        "distilbert-base-uncased_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8682459085,
+            "eval_spearman": 0.8654505787
+        },
+        "distilbert-base-uncased_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8611900576,
+            "eval_spearman": 0.8589167308
+        },
+        "distilbert-base-uncased_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8622397729,
+            "eval_spearman": 0.8598568844
+        },
+        "distilbert-base-uncased_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8667946242,
+            "eval_spearman": 0.8643239231
+        },
+        "distilbert-base-uncased_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8647432221,
+            "eval_spearman": 0.862323694
+        },
+        "distilbert-base-uncased_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8639880881,
+            "eval_spearman": 0.861710795
+        },
+        "distilbert-base-uncased_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8653020966,
+            "eval_spearman": 0.8629261108
+        },
+        "distilbert-base-uncased_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8612097837,
+            "eval_spearman": 0.8584981469
+        },
+        "distilbert-base-uncased_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8646451598,
+            "eval_spearman": 0.8624795517
+        },
+        "distilbert-base-uncased_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8604277165,
+            "eval_spearman": 0.8580907249
+        },
+        "distilbert-base-uncased_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8682439221,
+            "eval_spearman": 0.8643512185
+        },
+        "distilbert-base-uncased_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8663755666,
+            "eval_spearman": 0.8635777963
+        },
+        "distilbert-base-uncased_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8634430169,
+            "eval_spearman": 0.8615574853
+        },
+        "distilbert-base-uncased_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8642711984,
+            "eval_spearman": 0.8617191526
+        },
+        "distilbert-base-uncased_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8672291369,
+            "eval_spearman": 0.8641383927
+        },
+        "distilbert-base-uncased_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8643696443,
+            "eval_spearman": 0.8621325017
+        },
+        "distilbert-base-uncased_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8624782609,
+            "eval_spearman": 0.8594073201
+        },
+        "distilbert-base-uncased_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8634242147,
+            "eval_spearman": 0.8609813995
+        },
+        "distilbert-base-uncased_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8641196774,
+            "eval_spearman": 0.8626705376
+        },
+        "distilbert-base-uncased_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8645120417,
+            "eval_spearman": 0.8620817935
+        },
+        "bert-large-uncased_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8968053994,
+            "eval_spearman": 0.89420957
+        },
+        "bert-large-uncased_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8957408997,
+            "eval_spearman": 0.8946375098
+        },
+        "bert-large-uncased_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8815357236,
+            "eval_spearman": 0.8803133345
+        },
+        "bert-large-uncased_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8793053323,
+            "eval_spearman": 0.8762456164
+        },
+        "bert-large-uncased_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8827911384,
+            "eval_spearman": 0.8806313311
+        },
+        "bert-large-uncased_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8866601379,
+            "eval_spearman": 0.8843384351
+        },
+        "bert-large-uncased_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8867751422,
+            "eval_spearman": 0.8843480277
+        },
+        "bert-large-uncased_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8922801032,
+            "eval_spearman": 0.8918847357
+        },
+        "bert-large-uncased_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8805770936,
+            "eval_spearman": 0.8780059308
+        },
+        "bert-large-uncased_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8883647397,
+            "eval_spearman": 0.8867846059
+        },
+        "bert-large-uncased_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8906787531,
+            "eval_spearman": 0.8886570929
+        },
+        "bert-large-uncased_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8556036366,
+            "eval_spearman": 0.8590125084
+        },
+        "bert-large-uncased_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8527439555,
+            "eval_spearman": 0.8517548789
+        },
+        "bert-large-uncased_whitenoise_0.02_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8777657111,
+            "eval_spearman": 0.8760608938
+        },
+        "bert-large-uncased_whitenoise_0.02_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8785932197,
+            "eval_spearman": 0.8806761337
+        },
+        "bert-large-uncased_whitenoise_0.02_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8874907222,
+            "eval_spearman": 0.8868275916
+        },
+        "bert-large-uncased_whitenoise_0.02_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940592616,
+            "eval_spearman": 0.8925083963
+        },
+        "bert-large-uncased_whitenoise_0.02_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8889517671,
+            "eval_spearman": 0.8879980053
+        },
+        "bert-large-uncased_whitenoise_0.02_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8941564551,
+            "eval_spearman": 0.8909188276
+        },
+        "bert-large-uncased_whitenoise_0.02_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8902302336,
+            "eval_spearman": 0.8888859596
+        },
+        "bert-large-uncased_whitenoise_0.02_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8933374843,
+            "eval_spearman": 0.8928243769
+        },
+        "bert-large-uncased_whitenoise_0.02_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.893553027,
+            "eval_spearman": 0.8915912729
+        },
+        "bert-large-uncased_whitenoise_0.02_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8873772717,
+            "eval_spearman": 0.8882963969
+        },
+        "bert-large-uncased_whitenoise_0.02_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8943638906,
+            "eval_spearman": 0.8934742973
+        },
+        "bert-large-uncased_whitenoise_0.02_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8949545338,
+            "eval_spearman": 0.8933821602
+        },
+        "bert-large-uncased_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8890494308,
+            "eval_spearman": 0.8876482684
+        },
+        "bert-large-uncased_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8863616533,
+            "eval_spearman": 0.8844162936
+        },
+        "bert-large-uncased_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.884444876,
+            "eval_spearman": 0.8835311534
+        },
+        "bert-large-uncased_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8960387233,
+            "eval_spearman": 0.8935239628
+        },
+        "bert-large-uncased_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8907708268,
+            "eval_spearman": 0.8892019019
+        },
+        "bert-large-uncased_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8918061225,
+            "eval_spearman": 0.8911624096
+        },
+        "bert-large-uncased_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8839567352,
+            "eval_spearman": 0.8835626766
+        },
+        "bert-large-uncased_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8853324942,
+            "eval_spearman": 0.8843072892
+        },
+        "bert-large-uncased_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8847279075,
+            "eval_spearman": 0.8819351399
+        },
+        "bert-large-uncased_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8871644234,
+            "eval_spearman": 0.8854653345
+        },
+        "bert-large-uncased_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8974770249,
+            "eval_spearman": 0.8942056679
+        },
+        "bert-large-uncased_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8706017806,
+            "eval_spearman": 0.8699394359
+        },
+        "bert-large-uncased_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8905803962,
+            "eval_spearman": 0.8889613084
+        },
+        "bert-large-uncased_whitenoise_0.05_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8801154299,
+            "eval_spearman": 0.878624376
+        },
+        "bert-large-uncased_whitenoise_0.05_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8771549321,
+            "eval_spearman": 0.8754961212
+        },
+        "bert-large-uncased_whitenoise_0.05_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8514279546,
+            "eval_spearman": 0.8540243591
+        },
+        "bert-large-uncased_whitenoise_0.05_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8894617047,
+            "eval_spearman": 0.8874128163
+        },
+        "bert-large-uncased_whitenoise_0.05_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8874282311,
+            "eval_spearman": 0.8860963776
+        },
+        "bert-large-uncased_whitenoise_0.05_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940980787,
+            "eval_spearman": 0.8907595214
+        },
+        "bert-large-uncased_whitenoise_0.05_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8890676152,
+            "eval_spearman": 0.8908676959
+        },
+        "bert-large-uncased_whitenoise_0.05_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8941433086,
+            "eval_spearman": 0.8905456583
+        },
+        "bert-large-uncased_whitenoise_0.05_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.894031094,
+            "eval_spearman": 0.8914652069
+        },
+        "bert-large-uncased_whitenoise_0.05_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.88764299,
+            "eval_spearman": 0.8861780432
+        },
+        "bert-large-uncased_whitenoise_0.05_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8801696616,
+            "eval_spearman": 0.879576955
+        },
+        "bert-large-uncased_whitenoise_0.05_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8836635895,
+            "eval_spearman": 0.882938137
+        },
+        "bert-large-uncased_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8927125675,
+            "eval_spearman": 0.8903997649
+        },
+        "bert-large-uncased_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8981553437,
+            "eval_spearman": 0.8961556906
+        },
+        "bert-large-uncased_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8973130029,
+            "eval_spearman": 0.894008287
+        },
+        "bert-large-uncased_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9016831205,
+            "eval_spearman": 0.8984774502
+        },
+        "bert-large-uncased_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8926364277,
+            "eval_spearman": 0.8909176656
+        },
+        "bert-large-uncased_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8877448654,
+            "eval_spearman": 0.8866766431
+        },
+        "bert-large-uncased_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8995151132,
+            "eval_spearman": 0.8970918158
+        },
+        "bert-large-uncased_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8968123992,
+            "eval_spearman": 0.894144401
+        },
+        "bert-large-uncased_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8963245288,
+            "eval_spearman": 0.8935192511
+        },
+        "bert-large-uncased_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.896241189,
+            "eval_spearman": 0.8939334649
+        },
+        "bert-large-uncased_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.891621506,
+            "eval_spearman": 0.8897064264
+        },
+        "bert-large-uncased_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.6699419731,
+            "eval_spearman": 0.7037103177
+        },
+        "bert-large-uncased_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8975902641,
+            "eval_spearman": 0.894686638
+        },
+        "bert-large-uncased_whitenoise_0.1_12": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8874858464,
+            "eval_spearman": 0.8859621854
+        },
+        "bert-large-uncased_whitenoise_0.1_13": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8965987362,
+            "eval_spearman": 0.8940864703
+        },
+        "bert-large-uncased_whitenoise_0.1_14": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8950878751,
+            "eval_spearman": 0.8920827127
+        },
+        "bert-large-uncased_whitenoise_0.1_15": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8928373598,
+            "eval_spearman": 0.8904901689
+        },
+        "bert-large-uncased_whitenoise_0.1_16": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8940900151,
+            "eval_spearman": 0.8918665239
+        },
+        "bert-large-uncased_whitenoise_0.1_17": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8991155162,
+            "eval_spearman": 0.8960976052
+        },
+        "bert-large-uncased_whitenoise_0.1_18": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8701434023,
+            "eval_spearman": 0.8721777967
+        },
+        "bert-large-uncased_whitenoise_0.1_19": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8896776841,
+            "eval_spearman": 0.888882997
+        },
+        "bert-large-uncased_whitenoise_0.1_20": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8795717638,
+            "eval_spearman": 0.8774133307
+        },
+        "bert-large-uncased_whitenoise_0.1_21": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.895813401,
+            "eval_spearman": 0.8931537384
+        },
+        "bert-large-uncased_whitenoise_0.1_22": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8950850953,
+            "eval_spearman": 0.890694573
+        },
+        "bert-large-uncased_whitenoise_0.1_23": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.892997715,
+            "eval_spearman": 0.8903388111
+        },
+        "bert-base-uncased_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8825700816,
+            "eval_spearman": 0.8809413385
+        },
+        "bert-base-uncased_whitenoise_0.02_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8915089136,
+            "eval_spearman": 0.889038643
+        },
+        "bert-base-uncased_whitenoise_0.02_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.884690572,
+            "eval_spearman": 0.8827398611
+        },
+        "bert-base-uncased_whitenoise_0.02_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8781809063,
+            "eval_spearman": 0.8749737917
+        },
+        "bert-base-uncased_whitenoise_0.02_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.883444508,
+            "eval_spearman": 0.8799264979
+        },
+        "bert-base-uncased_whitenoise_0.02_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8866999064,
+            "eval_spearman": 0.8819041452
+        },
+        "bert-base-uncased_whitenoise_0.02_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8810175587,
+            "eval_spearman": 0.8784183445
+        },
+        "bert-base-uncased_whitenoise_0.02_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8786756647,
+            "eval_spearman": 0.8772132469
+        },
+        "bert-base-uncased_whitenoise_0.02_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.877948633,
+            "eval_spearman": 0.8750322223
+        },
+        "bert-base-uncased_whitenoise_0.02_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.884783679,
+            "eval_spearman": 0.8832093347
+        },
+        "bert-base-uncased_whitenoise_0.02_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8787116145,
+            "eval_spearman": 0.8754166639
+        },
+        "bert-base-uncased_whitenoise_0.02_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8731464533,
+            "eval_spearman": 0.8703117315
+        },
+        "bert-base-uncased_whitenoise_0.02_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8811785834,
+            "eval_spearman": 0.8794808909
+        },
+        "bert-base-uncased_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.881518466,
+            "eval_spearman": 0.8778495766
+        },
+        "bert-base-uncased_whitenoise_0.05_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8860868372,
+            "eval_spearman": 0.8841077339
+        },
+        "bert-base-uncased_whitenoise_0.05_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8859935399,
+            "eval_spearman": 0.8835296712
+        },
+        "bert-base-uncased_whitenoise_0.05_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8867432734,
+            "eval_spearman": 0.886162036
+        },
+        "bert-base-uncased_whitenoise_0.05_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8776723699,
+            "eval_spearman": 0.8752160285
+        },
+        "bert-base-uncased_whitenoise_0.05_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8847251896,
+            "eval_spearman": 0.8810466436
+        },
+        "bert-base-uncased_whitenoise_0.05_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8853900804,
+            "eval_spearman": 0.8821562628
+        },
+        "bert-base-uncased_whitenoise_0.05_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8746478596,
+            "eval_spearman": 0.8718082414
+        },
+        "bert-base-uncased_whitenoise_0.05_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8816999509,
+            "eval_spearman": 0.8783155822
+        },
+        "bert-base-uncased_whitenoise_0.05_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8832052904,
+            "eval_spearman": 0.8802216102
+        },
+        "bert-base-uncased_whitenoise_0.05_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8896673068,
+            "eval_spearman": 0.8875300564
+        },
+        "bert-base-uncased_whitenoise_0.05_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8729287388,
+            "eval_spearman": 0.8702272528
+        },
+        "bert-base-uncased_whitenoise_0.05_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8848790264,
+            "eval_spearman": 0.8816627767
+        },
+        "bert-base-uncased_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8799832189,
+            "eval_spearman": 0.8756968669
+        },
+        "bert-base-uncased_whitenoise_0.1_0": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8809965554,
+            "eval_spearman": 0.8778048762
+        },
+        "bert-base-uncased_whitenoise_0.1_1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8817921046,
+            "eval_spearman": 0.8783115484
+        },
+        "bert-base-uncased_whitenoise_0.1_2": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8788180695,
+            "eval_spearman": 0.8750302241
+        },
+        "bert-base-uncased_whitenoise_0.1_3": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8785445395,
+            "eval_spearman": 0.8745611704
+        },
+        "bert-base-uncased_whitenoise_0.1_4": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8787259679,
+            "eval_spearman": 0.8751444964
+        },
+        "bert-base-uncased_whitenoise_0.1_5": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8780402947,
+            "eval_spearman": 0.8768231381
+        },
+        "bert-base-uncased_whitenoise_0.1_6": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8925921703,
+            "eval_spearman": 0.8885033134
+        },
+        "bert-base-uncased_whitenoise_0.1_7": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8921088994,
+            "eval_spearman": 0.8891246947
+        },
+        "bert-base-uncased_whitenoise_0.1_8": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8758278845,
+            "eval_spearman": 0.8746668164
+        },
+        "bert-base-uncased_whitenoise_0.1_9": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8913721585,
+            "eval_spearman": 0.8881027473
+        },
+        "bert-base-uncased_whitenoise_0.1_10": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8796368672,
+            "eval_spearman": 0.8760435148
+        },
+        "bert-base-uncased_whitenoise_0.1_11": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8737149648,
+            "eval_spearman": 0.8717175972
+        },
+        "albert-base-v2_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9071181303,
+            "eval_spearman": 0.9040889541
+        },
+        "albert-base-v2_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8967971442,
+            "eval_spearman": 0.8942013476
+        },
+        "albert-base-v2_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.8883661603,
+            "eval_spearman": 0.8859527441
+        },
+        "albert-large-v2_whitenoise_0.02_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9094075198,
+            "eval_spearman": 0.9065563579
+        },
+        "albert-large-v2_whitenoise_0.05_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.9099370224,
+            "eval_spearman": 0.9086311067
+        },
+        "albert-large-v2_whitenoise_0.1_-1": {
+            "pretrained_LM": null,
+            "pert_type": null,
+            "scale": null,
+            "pert_layer": null,
+            "eval_pearson": 0.82143048,
+            "eval_spearman": 0.8179855762
+        }
+    }
+}
