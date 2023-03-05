@@ -3,7 +3,7 @@
 python -m exp.run_mol_exp \
   --device 0 \
   --start_seed 0 \
-  --stop_seed 9 \
+  --stop_seed 0\
   --dataset Model_NN_Graph \
   --train_eval_period 20 \
   --epochs 1 \

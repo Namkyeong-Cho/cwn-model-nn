@@ -58,6 +58,10 @@ def main(args):
     print("datset called!:", args.tune)
     print(dataset.get_split('train'), dataset.get_split('test'))
     # assert False
+
+    for data in dataset:
+        print("data type : ", type(data))
+        print("data : ", data.model_nm)
     if args.tune:
         split_idx = dataset.get_tune_idx_split()
     else:
@@ -77,14 +81,13 @@ def main(args):
     # Automatic evaluator, takes dataset name as input
     evaluator = Evaluator(args.eval_metric, eps=args.iso_eps)
 
-    # Use coboundaries?
-    use_coboundaries = args.use_coboundaries.lower() == 'true'
-
-    # Readout dimensions
-    readout_dims = tuple(sorted(args.readout_dims))
+    # # Use coboundaries?
+    # use_coboundaries = args.use_coboundaries.lower() == 'true'
+    #
+    # # Readout dimensions
+    # readout_dims = tuple(sorted(args.readout_dims))
 
     # Instantiate model
-    # NB: here we assume to have the same number of features per dim
     if args.model == 'cin':
         print("CIN0 calling")
         print("dataset num feature :", dataset.num_features_in_dim(0))
@@ -101,161 +104,6 @@ def main(args):
                      nonlinearity=args.nonlinearity,          # nonlinearity
                      readout=args.readout,                    # readout
                     ).to(device)
-    elif args.model == 'sparse_cin':
-        model = SparseCIN(dataset.num_features_in_dim(0),     # num_input_features
-                     dataset.num_classes,                     # num_classes
-                     args.num_layers,                         # num_layers
-                     args.emb_dim,                            # hidden
-                     dropout_rate=args.drop_rate,             # dropout rate
-                     max_dim=dataset.max_dim,                 # max_dim
-                     jump_mode=args.jump_mode,                # jump mode
-                     nonlinearity=args.nonlinearity,          # nonlinearity
-                     readout=args.readout,                    # readout
-                     final_readout=args.final_readout,        # final readout
-                     apply_dropout_before=args.drop_position, # where to apply dropout
-                     use_coboundaries=use_coboundaries,       # whether to use coboundaries in up-msg
-                     graph_norm=args.graph_norm,              # normalization layer
-                     readout_dims=readout_dims                # readout_dims
-                    ).to(device)
-    elif args.model == 'ring_sparse_cin':
-        model = RingSparseCIN(
-                     dataset.num_features_in_dim(0),          # num_input_features
-                     dataset.num_classes,                     # num_classes
-                     args.num_layers,                         # num_layers
-                     args.emb_dim,                            # hidden
-                     max_dim=dataset.max_dim,                 # max_dim
-                     nonlinearity=args.nonlinearity,          # nonlinearity
-                     use_coboundaries=use_coboundaries,       # whether to use coboundaries in up-msg
-                     graph_norm=args.graph_norm,              # normalization layer
-                    ).to(device)
-    elif args.model == 'gin':
-        model = GIN0(num_features,                            # num_input_features
-                     args.num_layers,                         # num_layers
-                     args.emb_dim,                            # hidden
-                     num_classes,                             # num_classes
-                     dropout_rate=args.drop_rate,             # dropout rate
-                     nonlinearity=args.nonlinearity,          # nonlinearity
-                     readout=args.readout,                    # readout
-        ).to(device)
-    elif args.model == 'gin_ring':
-        model = RingGIN(num_features,                                # num_input_features
-                            args.num_layers,                         # num_layers
-                            args.emb_dim,                            # hidden
-                            num_classes,                             # num_classes
-                            nonlinearity=args.nonlinearity,          # nonlinearity
-                            graph_norm=args.graph_norm,              # normalization layer
-        ).to(device)
-    elif args.model == 'gin_jk':
-        model = GINWithJK(num_features,                       # num_input_features
-                     args.num_layers,                         # num_layers
-                     args.emb_dim,                            # hidden
-                     num_classes,                             # num_classes
-                     dropout_rate=args.drop_rate,             # dropout rate
-                     nonlinearity=args.nonlinearity,          # nonlinearity
-                     readout=args.readout,                    # readout
-        ).to(device)
-    elif args.model == 'mp_agnostic':
-        model = MessagePassingAgnostic(
-                     dataset.num_features_in_dim(0),          # num_input_features
-                     dataset.num_classes,                     # num_classes
-                     args.emb_dim,                            # hidden
-                     dropout_rate=args.drop_rate,             # dropout rate
-                     max_dim=dataset.max_dim,                 # max_dim
-                     nonlinearity=args.nonlinearity,          # nonlinearity
-                     readout=args.readout,                    # readout
-                    ).to(device)
-    elif args.model == 'dummy':
-        model = Dummy(dataset.num_features_in_dim(0),
-                      dataset.num_classes,
-                      args.num_layers,
-                      max_dim=dataset.max_dim,
-                      readout=args.readout,
-                     ).to(device)
-    elif args.model == 'edge_orient':
-        model = EdgeOrient(1,
-                      dataset.num_classes,
-                      args.num_layers,
-                      args.emb_dim,  # hidden
-                      readout=args.readout,
-                      nonlinearity=args.nonlinearity,  # nonlinearity
-                      dropout_rate=args.drop_rate,  # dropout rate
-                      fully_invar=args.fully_orient_invar
-        ).to(device)
-    elif args.model == 'edge_mpnn':
-        model = EdgeMPNN(1,
-                      dataset.num_classes,
-                      args.num_layers,
-                      args.emb_dim,  # hidden
-                      readout=args.readout,
-                      nonlinearity=args.nonlinearity,  # nonlinearity
-                      dropout_rate=args.drop_rate,  # dropout rate
-                      fully_invar=args.fully_orient_invar,
-        ).to(device)
-    elif args.model == 'embed_sparse_cin':
-        model = EmbedSparseCIN(dataset.num_node_type,  # The number of atomic types
-                               dataset.num_edge_type,  # The number of bond types
-                               dataset.num_classes,  # num_classes
-                               args.num_layers,  # num_layers
-                               args.emb_dim,  # hidden
-                               dropout_rate=args.drop_rate,  # dropout rate
-                               max_dim=dataset.max_dim,  # max_dim
-                               jump_mode=args.jump_mode,  # jump mode
-                               nonlinearity=args.nonlinearity,  # nonlinearity
-                               readout=args.readout,  # readout
-                               final_readout=args.final_readout,  # final readout
-                               apply_dropout_before=args.drop_position,  # where to apply dropout
-                               use_coboundaries=use_coboundaries,
-                               embed_edge=args.use_edge_features,
-                               graph_norm=args.graph_norm,  # normalization layer
-                               readout_dims=readout_dims  # readout_dims
-                               ).to(device)
-    elif args.model == 'embed_sparse_cin_no_rings':
-        model = EmbedSparseCINNoRings(dataset.num_node_type,  # The number of atomic types
-                                      dataset.num_edge_type,  # The number of bond types
-                                      dataset.num_classes,  # num_classes
-                                      args.num_layers,  # num_layers
-                                      args.emb_dim,  # hidden
-                                      dropout_rate=args.drop_rate,  # dropout rate
-                                      nonlinearity=args.nonlinearity,  # nonlinearity
-                                      readout=args.readout,  # readout
-                                      final_readout=args.final_readout,  # final readout
-                                      apply_dropout_before=args.drop_position,  # where to apply dropout
-                                      use_coboundaries=use_coboundaries,
-                                      embed_edge=args.use_edge_features,
-                                      graph_norm=args.graph_norm,  # normalization layer
-        ).to(device)
-    elif args.model == 'embed_gin':
-        model = EmbedGIN(dataset.num_node_type,  # The number of atomic types
-                         dataset.num_edge_type,  # The number of bond types
-                         dataset.num_classes,  # num_classes
-                         args.num_layers,  # num_layers
-                         args.emb_dim,  # hidden
-                         dropout_rate=args.drop_rate,  # dropout rate
-                         nonlinearity=args.nonlinearity,  # nonlinearity
-                         readout=args.readout,  # readout
-                         apply_dropout_before=args.drop_position,  # where to apply dropout
-                         embed_edge=args.use_edge_features,
-        ).to(device)
-    # TODO: handle this as above
-    elif args.model == 'ogb_embed_sparse_cin':
-        model = OGBEmbedSparseCIN(dataset.num_tasks,                       # out_size
-                                  args.num_layers,                         # num_layers
-                                  args.emb_dim,                            # hidden
-                                  dropout_rate=args.drop_rate,             # dropout_rate
-                                  indropout_rate=args.indrop_rate,         # in-dropout_rate
-                                  max_dim=dataset.max_dim,                 # max_dim
-                                  jump_mode=args.jump_mode,                # jump_mode
-                                  nonlinearity=args.nonlinearity,          # nonlinearity
-                                  readout=args.readout,                    # readout
-                                  final_readout=args.final_readout,        # final readout
-                                  apply_dropout_before=args.drop_position, # where to apply dropout
-                                  use_coboundaries=use_coboundaries,       # whether to use coboundaries
-                                  embed_edge=args.use_edge_features,       # whether to use edge feats
-                                  graph_norm=args.graph_norm,              # normalization layer
-                                  readout_dims=readout_dims                # readout_dims
-                                 ).to(device)
-    else:
-        raise ValueError('Invalid model type {}.'.format(args.model))
 
     # print("============= Model Parameters =================")
     # trainable_params = 0
@@ -370,10 +218,14 @@ def main(args):
     final_val_perf = np.nan
     final_test_perf = np.nan
     print("args.dataset :" ,args.dataset)
-    final_train_perf, _, input_dict = eval(model, device, train_loader, evaluator, args.task_type,
+    final_train_perf, _ = eval(model, device, train_loader, evaluator, args.task_type)
+    _, _, input_dict = eval(model, device, test_loader, evaluator, args.task_type,
                                            show_input_dict=True)
     print("inupt_dict : ", input_dict)
-
+    for idx,test_data in enumerate(dataset.get_split('test')):
+        print("complex :", test_data.model_nm)
+        print("y : ", test_data.y)
+        print("input_dict y_true: ",input_dict['y_true'][idx])
 
     # save results
     curves = {

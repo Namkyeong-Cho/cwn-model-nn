@@ -163,6 +163,9 @@ class InMemoryComplexDataset(ComplexDataset):
         cochains = [r[0] for r in retrieved if not r[1]]
         
         targets = self.data['labels']
+        model_nms = self.data['model_nms']
+        # print("model_nm :" , model_nms)
+        # assert False
         start, end = idx, idx + 1
         if torch.is_tensor(targets):
             s = list(repeat(slice(None), targets.dim()))
@@ -174,10 +177,17 @@ class InMemoryComplexDataset(ComplexDataset):
             s = start
 
         target = targets[s]
-        
+        print("targets :", target)
+        print("s : " , s[0], type(s[0]))
+        print("targets : ", targets)
+        print("target : ", target)
+        print("model_nms : ", model_nms)
+        model_nm = model_nms.__getitem__(s[0])
+        print("model_nm : " ,model_nm)
+        model_nm= model_nms[s[0]]
         dim = self.data['dims'][idx].item()
         assert dim == len(cochains) - 1
-        data = Complex(*cochains, y=target)
+        data = Complex(*cochains, y=target, model_nm=model_nm)
     
         if hasattr(self, '__data_list__'):
             self.__data_list__[idx] = copy.copy(data)
@@ -225,7 +235,7 @@ class InMemoryComplexDataset(ComplexDataset):
     def collate(data_list, max_dim):
         r"""Collates a python list of data objects to the internal storage
         format of :class:`InMemoryComplexDataset`."""
-        
+        print("in the collate: ", data_list[0].model_nm)
         def init_keys(dim, keys):
             cochain = Cochain(dim)
             for key in keys[dim]:
@@ -250,13 +260,12 @@ class InMemoryComplexDataset(ComplexDataset):
         types = {}
         cat_dims = {}
         tensor_dims = {}
-        data = {'labels': [], 'dims': []}
+        data = {'labels': [], 'dims': [], 'model_nms' : []}
         slices = {}
         for dim in range(0, max_dim + 1):
             data[dim], slices[dim] = init_keys(dim, keys)
         
         for complex in data_list:
-            
             # Collect cochain-wise items
             for dim in range(0, max_dim + 1):
                 
@@ -314,6 +323,7 @@ class InMemoryComplexDataset(ComplexDataset):
                 assert complex.y.size(0) == 1   
             data['labels'].append(complex.y)
             data['dims'].append(complex.dimension)
+            data['model_nms'].append(complex.model_nm)
 
         # Pack lists into tensors
         
@@ -346,7 +356,8 @@ class InMemoryComplexDataset(ComplexDataset):
         elif isinstance(item, int) or isinstance(item, float):
             data['labels'] = torch.tensor(data['labels'])
         data['dims'] = torch.tensor(data['dims'])
-
+        print("data :", data, type(data))
+        print("slices : ", slices)
         return data, slices
     
     def copy(self, idx=None):

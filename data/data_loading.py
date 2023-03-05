@@ -55,7 +55,8 @@ class Collater(object):
     def collate(self, batch):
         """Converts a data list in the right storage format."""
         elem = batch[0]
-        print("elem :" , elem)
+        # print("elem :" , elem, self.follow_batch, elem.model_nm)
+        # assert False
         if isinstance(elem, Cochain):
             return CochainBatch.from_cochain_list(batch, self.follow_batch)
         elif isinstance(elem, Complex):
@@ -119,6 +120,7 @@ def load_dataset(name, root=os.path.join(ROOT_DIR, 'datasets'), task=None,
     print("*" * 100)
     print("load_dataset")
     print("*"*100)
-    dataset = Model_NN_Graph(os.path.join(root, name), task, node_feature_type=node_feature_type,
+
+    return Model_NN_Graph(os.path.join(root, name), task, node_feature_type=node_feature_type,
                              max_ring_size=kwargs.get('max_ring_size', None))
-    return dataset
+

@@ -496,7 +496,8 @@ class Complex(object):
         y: A tensor of shape (1,) containing a label for the complex for complex-level tasks.
         dimension: The dimension of the complex.
     """
-    def __init__(self, *cochains: Cochain, y: torch.Tensor = None, dimension: int = None):
+    def __init__(self, *cochains: Cochain, y: torch.Tensor = None, dimension: int = None
+                 , model_nm: str = None):
         if len(cochains) == 0:
             raise ValueError('At least one cochain is required.')
         if dimension is None:
@@ -512,6 +513,7 @@ class Complex(object):
         self.two_cells = cochains[2] if dimension >= 2 else None
 
         self.y = y
+        self.model_nm = model_nm
         
         self._consolidate()
         return

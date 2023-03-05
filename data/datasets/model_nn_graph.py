@@ -44,7 +44,8 @@ class Model_NN_Graph(InMemoryComplexDataset):
     def processed_file_names(self):
         name = self.name
         print("set processed_file names ")
-        return [f'{self.task}_{self.node_feature_type}_complex_list.pt']
+        return [f'{self.task}_{self.node_feature_type}_complex_list.pt',
+                f'{self.task}_{self.node_feature_type}_model_nm.dill']
 
     @property
     def raw_file_names(self):
@@ -125,12 +126,14 @@ class Model_NN_Graph(InMemoryComplexDataset):
             init_edges=True,
             init_rings=True,
             n_jobs=self._n_jobs)
-        for complex, y, model_nm in zip(complexes, accuracies, model_nms ):
-            complex.model_nm = model_nm
+        for idx, (complex, y, model_nm) in enumerate(zip(complexes, accuracies, model_nms )):
+            complexes[idx].model_nm = model_nm
             assert complex.y == y
 
-            # print("model_nm :", model_nm)
+            # print("complex.model_nm :", complexes[idx].model_nm)
+            print("Type : ", type(complexes[idx]))
         # assert False
         torch.save(self.collate(complexes,self.max_dim), self.processed_paths[0])
+        # with open(self.processed_paths[1]))
         # torch.save(self.collate(model_nms))
         # print("Torch data saved")
